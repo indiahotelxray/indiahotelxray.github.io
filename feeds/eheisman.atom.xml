@@ -161,12 +161,12 @@ To help fix this, I built a very simple vise from a piece of hard maple, and two
 &lt;ul&gt;
 &lt;li&gt;Learn a more modern IDE that I can use for work (Java, Python, R) and home (Python and R).  This probably means Visual Studio Code.&lt;/li&gt;
 &lt;li&gt;Finally upgrade to skills to Python 3 (in 2021! I mean... 2022!)&lt;/li&gt;
-&lt;/ul&gt;</content><category term="misc"></category></entry><entry><title>New blog</title><link href="new-blog.html" rel="alternate"></link><published>2021-11-09T00:00:00-08:00</published><updated>2021-11-09T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:None,2021-11-09:new-blog.html</id><summary type="html">&lt;h1&gt;TODO items (updated 2021-11-13):&lt;/h1&gt;
+&lt;/ul&gt;</content><category term="misc"></category></entry><entry><title>New blog</title><link href="new-blog.html" rel="alternate"></link><published>2021-11-09T00:00:00-08:00</published><updated>2021-11-09T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:None,2021-11-09:new-blog.html</id><summary type="html">&lt;h1&gt;TODO items (updated occasionally)&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;get a decent theme working&lt;ul&gt;
 &lt;li&gt;turns out your pelican-themes directory needs to actually have themes in it!  I naively cloned the &lt;code&gt;pelican-themes&lt;/code&gt; github repo and got empty directories.&lt;/li&gt;
 &lt;li&gt;make markdown first level headers slightly smaller than post title.&lt;/li&gt;
-&lt;li&gt;add &lt;code&gt;&amp;lt;h2&amp;gt;&lt;/code&gt; css to make slightly smaller than …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;TODO items (updated 2021-11-13):&lt;/h1&gt;
+&lt;li&gt;add &lt;code&gt;&amp;lt;h2&amp;gt;&lt;/code&gt; css to make slightly smaller than …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;TODO items (updated occasionally)&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;get a decent theme working&lt;ul&gt;
 &lt;li&gt;turns out your pelican-themes directory needs to actually have themes in it!  I naively cloned the &lt;code&gt;pelican-themes&lt;/code&gt; github repo and got empty directories.&lt;/li&gt;
