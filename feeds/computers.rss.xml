@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>Evan Heisman's Web Log - computers</title><link>indiahotelxray.github.io/</link><description></description><lastBuildDate>Sat, 13 Nov 2021 00:00:00 -0800</lastBuildDate><item><title>Projects</title><link>indiahotelxray.github.io/projects.html</link><description>&lt;h1&gt;Woodworking&lt;/h1&gt;
+&lt;p&gt;Ongoing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="./shop_improvements.html"&gt;Shop improvements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="./wood_planes.html"&gt;wood planes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Completed:  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="./cutting_boards.html"&gt;Cutting boards&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="./workbench_and_stand.html"&gt;Workbench and Miter Saw Stand&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="./learning_tower.html"&gt;Learning Tower&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="./desk.html"&gt;Desk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="./garden_boxes.html"&gt;Garden Boxes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="./owl_box_in_the_middle_of_the_street.html"&gt;Screen Owl Box&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="./toy_cars.html"&gt;Toy cars&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Someday:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solid wood base for custom record player&lt;/li&gt;
+&lt;li&gt;New legs for my desk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Ham Radio&lt;/h1&gt;
+&lt;p&gt;Ongoing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Remote Antenna Switch and Antenna Rotator&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://lcwo.net/profile/kc2ihx"&gt;Learn CW&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;DDS-60 VFO …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Sat, 13 Nov 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:None,2021-11-13:indiahotelxray.github.io/projects.html</guid><category>misc</category></item><item><title>New blog</title><link>indiahotelxray.github.io/new-blog.html</link><description>&lt;p&gt;TODO items (updated 2021-11-13):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;get a decent theme working&lt;ul&gt;
+&lt;li&gt;turns out your pelican-themes directory needs to actually have themes in it!  I naively cloned the &lt;code&gt;pelican-themes&lt;/code&gt; github repo and got empty directories.&lt;/li&gt;
+&lt;li&gt;make markdown first level headers slightly smaller than post title.&lt;/li&gt;
+&lt;li&gt;add &lt;code&gt;&amp;lt;h2&amp;gt;&lt;/code&gt; css to make slightly smaller than …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Tue, 09 Nov 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:None,2021-11-09:indiahotelxray.github.io/new-blog.html</guid><category>computers</category></item></channel></rss>
