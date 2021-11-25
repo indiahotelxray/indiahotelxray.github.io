@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Evan Heisman's Web Log - wood</title><link>https://indiahotelxray.github.io/</link><description></description><lastBuildDate>Fri, 19 Nov 2021 00:00:00 -0800</lastBuildDate><item><title>Workbench and Stand</title><link>https://indiahotelxray.github.io/workbench-and-stand.html</link><description>&lt;p&gt;Here's a few bits of shop furniture I've built and my thoughts about what I would do different next time.  I figure shop furniture is a great place to learn new techniques without worrying about aesthetics.  I often use construction lumber and recycled materials for these.&lt;/p&gt;
+<rss version="2.0"><channel><title>Evan Heisman's Web Log - wood</title><link>./</link><description></description><lastBuildDate>Thu, 25 Nov 2021 00:00:00 -0800</lastBuildDate><item><title>Desk</title><link>desk.html</link><description>&lt;h1&gt;Concept&lt;/h1&gt;
+&lt;p&gt;In late 2020, I realized I was going to need a better desk to continue working from home with, so I decided it was time to finally build one.  This had been a goal of mine when getting into woodworking, but given the circumstances, I thought it was a …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Thu, 25 Nov 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:None,2021-11-25:desk.html</guid><category>wood</category></item><item><title>Workbench and Stand</title><link>workbench-and-stand.html</link><description>&lt;p&gt;Here's a few bits of shop furniture I've built and my thoughts about what I would do different next time.  I figure shop furniture is a great place to learn new techniques without worrying about aesthetics.  I often use construction lumber and recycled materials for these.&lt;/p&gt;
 &lt;h1&gt;Miter saw stand&lt;/h1&gt;
-&lt;h2&gt;Concept …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Fri, 19 Nov 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:indiahotelxray.github.io,2021-11-19:/workbench-and-stand.html</guid><category>wood</category></item><item><title>Projects</title><link>https://indiahotelxray.github.io/projects.html</link><description>&lt;h1&gt;Woodworking&lt;/h1&gt;
-&lt;p&gt;Ongoing:&lt;/p&gt;
+&lt;h2&gt;Concept …&lt;/h2&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Fri, 19 Nov 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:None,2021-11-19:workbench-and-stand.html</guid><category>wood</category></item><item><title>Projects</title><link>projects.html</link><description>&lt;h1&gt;Woodworking&lt;/h1&gt;
+&lt;h2&gt;Ongoing:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="./shop_improvements.html"&gt;Shop improvements&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="./wood_planes.html"&gt;wood planes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Completed:  &lt;/p&gt;
+&lt;h2&gt;Completed:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="./cutting_boards.html"&gt;Cutting boards&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="./workbench_and_stand.html"&gt;Workbench and Miter Saw Stand&lt;/a&gt;&lt;/li&gt;
@@ -17,17 +18,17 @@
 &lt;li&gt;&lt;a href="./owl_box_in_the_middle_of_the_street.html"&gt;Screen Owl Box&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="./toy_cars.html"&gt;Toy cars&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Someday:&lt;/p&gt;
+&lt;h2&gt;Someday:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Solid wood base for custom record player&lt;/li&gt;
 &lt;li&gt;New legs for my desk&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;Ham Radio&lt;/h1&gt;
-&lt;p&gt;Ongoing:&lt;/p&gt;
+&lt;h2&gt;Ongoing:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Remote Antenna Switch and Antenna Rotator&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://lcwo.net/profile/kc2ihx"&gt;Learn CW&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;DDS-60 VFO …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Sat, 13 Nov 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:indiahotelxray.github.io,2021-11-13:/projects.html</guid><category>misc</category></item><item><title>Shop Improvements</title><link>https://indiahotelxray.github.io/shop-improvements.html</link><description>&lt;p&gt;I finally decided to get my woodshop cleaned up and more usable in the winter by dividing it out.  Every winter I use a few electric heaters to warm it up each day that I want to use it.  While I would like to insulate it and put up solid …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Sat, 13 Nov 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:indiahotelxray.github.io,2021-11-13:/shop-improvements.html</guid><category>wood</category></item><item><title>Woodworking resources</title><link>https://indiahotelxray.github.io/woodworking-resources.html</link><description>&lt;h1&gt;Video Channels&lt;/h1&gt;
+&lt;li&gt;DDS-60 VFO …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Sat, 13 Nov 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:None,2021-11-13:projects.html</guid><category>misc</category></item><item><title>Shop Improvements</title><link>shop-improvements.html</link><description>&lt;p&gt;I finally decided to get my woodshop cleaned up and more usable in the winter by dividing it out.  Every winter I use a few electric heaters to warm it up each day that I want to use it.  While I would like to insulate it and put up solid …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Sat, 13 Nov 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:None,2021-11-13:shop-improvements.html</guid><category>wood</category></item><item><title>Woodworking resources</title><link>woodworking-resources.html</link><description>&lt;h1&gt;Video Channels&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.youtube.com/c/RexKrueger/"&gt;Rex Kruger (YouTube)&lt;/a&gt; - Rex's videos really taught me how to sharpen and use handplanes and I really appreciate his approach to making woodworking with hand tools more accessible.&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.youtube.com/user/stevinmarin"&gt;Steve Ramsey (YouTube)&lt;/a&gt; - Lots of good introductory videos for power tool woodworking&lt;/li&gt;
@@ -35,4 +36,4 @@
 &lt;/ul&gt;
 &lt;h1&gt;Books&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.woodworkforhumans.com/"&gt;Rex Kruger's …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Sat, 13 Nov 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:indiahotelxray.github.io,2021-11-13:/woodworking-resources.html</guid><category>wood</category></item></channel></rss>
+&lt;li&gt;&lt;a href="https://www.woodworkforhumans.com/"&gt;Rex Kruger's …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Sat, 13 Nov 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:None,2021-11-13:woodworking-resources.html</guid><category>wood</category></item></channel></rss>

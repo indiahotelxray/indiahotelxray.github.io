@@ -86,24 +86,32 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 h1, h2, h3 {
+    font-size: 1.4em;
     line-height: 1em;
     margin: 1em 0;
 }
 
-h1 {
-    font-size: 1.6em;
+article.post > h2.title {
+    font-size: 1.65em;
 }
 
-h2 {
-    font-size: 1.4em;
+article.post > h1 {
+    font-size: 1.5em;
 }
 
-h3 {
-    font-size: 1.2em;
+article.post > h2 {
+    font-size: 1.25em;
+    color: #00232C;
 }
 
-h4 {
-    font-size: 1.1em;
+article.post > h3 {
+    font-size: 1.15em;
+    color: #586E75;
+}
+
+article.post > h4 {
+    font-size: 1em;
+    color:#586E75;
 }
 
 img, p, .post > .highlight, .highlighttable, h4, h5, h6 {

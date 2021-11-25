@@ -4,12 +4,12 @@
         <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Evan Heisman's Web Log | New blog</title>
-    <link rel="shortcut icon" type="image/png" href="https://indiahotelxray.github.io/favicon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="https://indiahotelxray.github.io/favicon.ico">
-    <link href="https://indiahotelxray.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Evan Heisman's Web Log Full RSS Feed" />
-    <link href="https://indiahotelxray.github.io/feeds/computers.rss.xml" type="application/rss+xml" rel="alternate" title="Evan Heisman's Web Log Categories RSS Feed" />
-    <link rel="stylesheet" href="https://indiahotelxray.github.io/theme/css/main.css" type="text/css" />
-    <link rel="stylesheet" href="https://indiahotelxray.github.io/theme/css/pygments.css" type="text/css" />
+    <link rel="shortcut icon" type="image/png" href="./favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <link href="./feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Evan Heisman's Web Log Full RSS Feed" />
+    <link href="./feeds/computers.rss.xml" type="application/rss+xml" rel="alternate" title="Evan Heisman's Web Log Categories RSS Feed" />
+    <link rel="stylesheet" href="./theme/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="./theme/css/pygments.css" type="text/css" />
     <meta name="generator" content="Pelican" />
     <meta name="description" content="" />
     <meta name="author" content="eheisman" />
@@ -22,12 +22,12 @@
                 <li><a href="whats-here.html">about</a></li>
                 <li><a href="https://github.com/indiahotelxray">github</a></li>
                 <li><a href="https://twitter.com/evanheisman">twitter</a></li>
-                <li><a href="https://indiahotelxray.github.io/categories">categories</a></li>
-                <li><a href="https://indiahotelxray.github.io/archives">archives</a></li>
+                <li><a href="./categories">categories</a></li>
+                <li><a href="./archives">archives</a></li>
             </ul>
         </nav>
         <div class="header_box">
-            <h1><a href="https://indiahotelxray.github.io/">Evan Heisman's Web Log</a></h1>
+            <h1><a href="./">Evan Heisman's Web Log</a></h1>
         </div>
     </header>
     <div id="wrapper">
@@ -35,29 +35,32 @@
 
             <article class="post">
                 <h2 class="title">
-                    <a href="https://indiahotelxray.github.io/new-blog.html" rel="bookmark" title="Permanent Link to &quot;New blog&quot;">New blog</a>
+                    <a href="./new-blog.html" rel="bookmark" title="Permanent Link to &quot;New blog&quot;">New blog</a>
                 </h2>
 
                 
                 
 
-                <p>TODO items (updated 2021-11-13):</p>
+                <h1>TODO items (updated 2021-11-13):</h1>
 <ul>
 <li>get a decent theme working<ul>
 <li>turns out your pelican-themes directory needs to actually have themes in it!  I naively cloned the <code>pelican-themes</code> github repo and got empty directories.</li>
 <li>make markdown first level headers slightly smaller than post title.</li>
-<li>add <code>&lt;h2&gt;</code> css to make slightly smaller than <code>&lt;h1&gt;</code></li>
+<li>add <code>&lt;h2&gt;</code> css to make slightly smaller than <code>&lt;h1&gt;</code>: updated theme's main.css, maybe there should be a better approach.  Tried adding a second css file to template's base.html.  Learned about the <code>&gt;</code> operator in css.  New css file works well enough.</li>
 </ul>
 </li>
-<li>Insert header image</li>
-<li>upload a few photos of woodworking projects</li>
-<li>upload some short descriptions of programming projects</li>
+<li>Insert header image - on hold<ul>
+<li>need to modify base.html template; identify file, add static image.</li>
+</ul>
+</li>
+<li>upload a few photos of woodworking projects - in progress</li>
+<li>upload some short descriptions of programming projects - in progress</li>
 </ul>
                 <div class="clear"></div>
 
                 <div class="info">
-                    <a href="https://indiahotelxray.github.io/new-blog.html">posted at 00:00</a>
-                    &nbsp;&middot;&nbsp;<a href="https://indiahotelxray.github.io/category/computers.html" rel="tag">computers</a>
+                    <a href="./new-blog.html">posted at 00:00</a>
+                    &nbsp;&middot;&nbsp;<a href="./category/computers.html" rel="tag">computers</a>
                 </div>
             </article>
             <div class="clear"></div>
@@ -67,7 +70,7 @@
                 &middot;
                 Powered by <a href="http://getpelican.com">Pelican</a>
                 &middot;
-                <a href="https://indiahotelxray.github.io/feeds/all.rss.xml" rel="alternate">Rss Feed</a>
+                <a href="./feeds/all.rss.xml" rel="alternate">Rss Feed</a>
             </footer>
         </div>
         <div class="clear"></div>
