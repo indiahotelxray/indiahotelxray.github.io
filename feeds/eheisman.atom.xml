@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Evan Heisman's Web Log - eheisman</title><link href="./" rel="alternate"></link><link href="feeds/eheisman.atom.xml" rel="self"></link><id>./</id><updated>2021-11-25T00:00:00-08:00</updated><entry><title>Desk</title><link href="desk.html" rel="alternate"></link><published>2021-11-25T00:00:00-08:00</published><updated>2021-11-25T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:None,2021-11-25:desk.html</id><summary type="html">&lt;h1&gt;Concept&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Evan Heisman's Web Log - eheisman</title><link href="https://indiahotelxray.github.io/" rel="alternate"></link><link href="https://indiahotelxray.github.io/feeds/eheisman.atom.xml" rel="self"></link><id>https://indiahotelxray.github.io/</id><updated>2021-11-25T00:00:00-08:00</updated><entry><title>Desk</title><link href="https://indiahotelxray.github.io/desk.html" rel="alternate"></link><published>2021-11-25T00:00:00-08:00</published><updated>2021-11-25T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:indiahotelxray.github.io,2021-11-25:/desk.html</id><summary type="html">&lt;h1&gt;Concept&lt;/h1&gt;
 &lt;p&gt;In late 2020, I realized I was going to need a better desk to continue working from home with, so I decided it was time to finally build one.  This had been a goal of mine when getting into woodworking, but given the circumstances, I thought it was a …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Concept&lt;/h1&gt;
 &lt;p&gt;In late 2020, I realized I was going to need a better desk to continue working from home with, so I decided it was time to finally build one.  This had been a goal of mine when getting into woodworking, but given the circumstances, I thought it was a good time to take a first shot at one.  I ended up building something like a basic table, a little larger than most commercial desks, and gave it legs and supports at the far sides.  &lt;/p&gt;
 &lt;p&gt;The desk-top is assembled from pieces of locally source cherry that I joined with a borrowed biscuit joiner and then planed flat.  I put a slight half-inch bevel around the outside with a handplane.&lt;/p&gt;
@@ -16,7 +16,7 @@ Desk with office equipment and other stuff on it, pardon the mess!&lt;/p&gt;
 &lt;p&gt;&lt;img alt="overall sizing and leg detail" src="./images/deskplans_1.jpg"&gt;
 Overall design and leg detail, along with a side sketch of a knitting box I still need to make.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="material list" src="./images/deskplans_2.jpg"&gt;
-A brief cut list and bill of materials to inform my shopping.&lt;/p&gt;</content><category term="wood"></category></entry><entry><title>Workbench and Stand</title><link href="workbench-and-stand.html" rel="alternate"></link><published>2021-11-19T00:00:00-08:00</published><updated>2021-11-19T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:None,2021-11-19:workbench-and-stand.html</id><summary type="html">&lt;p&gt;Here's a few bits of shop furniture I've built and my thoughts about what I would do different next time.  I figure shop furniture is a great place to learn new techniques without worrying about aesthetics.  I often use construction lumber and recycled materials for these.&lt;/p&gt;
+A brief cut list and bill of materials to inform my shopping.&lt;/p&gt;</content><category term="wood"></category></entry><entry><title>Workbench and Stand</title><link href="https://indiahotelxray.github.io/workbench-and-stand.html" rel="alternate"></link><published>2021-11-19T00:00:00-08:00</published><updated>2021-11-19T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:indiahotelxray.github.io,2021-11-19:/workbench-and-stand.html</id><summary type="html">&lt;p&gt;Here's a few bits of shop furniture I've built and my thoughts about what I would do different next time.  I figure shop furniture is a great place to learn new techniques without worrying about aesthetics.  I often use construction lumber and recycled materials for these.&lt;/p&gt;
 &lt;h1&gt;Miter saw stand&lt;/h1&gt;
 &lt;h2&gt;Concept …&lt;/h2&gt;</summary><content type="html">&lt;p&gt;Here's a few bits of shop furniture I've built and my thoughts about what I would do different next time.  I figure shop furniture is a great place to learn new techniques without worrying about aesthetics.  I often use construction lumber and recycled materials for these.&lt;/p&gt;
 &lt;h1&gt;Miter saw stand&lt;/h1&gt;
@@ -38,7 +38,13 @@ A brief cut list and bill of materials to inform my shopping.&lt;/p&gt;</content
 To help fix this, I built a very simple vise from a piece of hard maple, and two 8" long 3/4" diameter bolts which a friend welded handles onto.  The rough idea was from &lt;a href="https://www.youtube.com/watch?v=Mr7RKz8V4Y8"&gt;One Minute Woodworking's video on YouTube&lt;/a&gt;, although looking back at it, my plans have the bolts mounted backwards from theirs.  It was dirt cheap, the maple might have been the most expensive piece.  &lt;/p&gt;
 &lt;h2&gt;Thoughts&lt;/h2&gt;
 &lt;p&gt;It gets plenty of grip for handplaning and helping hold pieces to the bench, but turning both handles to tighten and loosen it can be a little tedious.  The handles on the bolts get in the way sometime, next time I would do some kind of wooden knobs and epoxy them on.&lt;br&gt;
-&lt;img alt="workbench vise" src="./images/2019-04-16 20.46.41_vise.jpg"&gt;&lt;/p&gt;</content><category term="wood"></category></entry><entry><title>Projects</title><link href="projects.html" rel="alternate"></link><published>2021-11-13T00:00:00-08:00</published><updated>2021-11-13T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:None,2021-11-13:projects.html</id><summary type="html">&lt;h1&gt;Woodworking&lt;/h1&gt;
+&lt;img alt="workbench vise" src="./images/2019-04-16 20.46.41_vise.jpg"&gt;&lt;/p&gt;</content><category term="wood"></category></entry><entry><title>Owl House</title><link href="https://indiahotelxray.github.io/owl-house.html" rel="alternate"></link><published>2021-11-13T00:00:00-08:00</published><updated>2021-11-13T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:indiahotelxray.github.io,2021-11-13:/owl-house.html</id><summary type="html">&lt;p&gt;A few years ago we decided to put a screech owl box in our big oak tree.  We regularly hear them calling at night during the summer when our windows are open.  &lt;/p&gt;
+&lt;p&gt;I found &lt;a href="https://wdfw.wa.gov/species-habitats/living/woodworking-projects"&gt;plans from WDFW&lt;/a&gt; and &lt;a href="https://nestwatch.org/learn/all-about-birdhouses/birds/eastern-screech-owl/"&gt;Cornell Lab of Ornithology&lt;/a&gt;, which I ended up using the WDFW plans …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A few years ago we decided to put a screech owl box in our big oak tree.  We regularly hear them calling at night during the summer when our windows are open.  &lt;/p&gt;
+&lt;p&gt;I found &lt;a href="https://wdfw.wa.gov/species-habitats/living/woodworking-projects"&gt;plans from WDFW&lt;/a&gt; and &lt;a href="https://nestwatch.org/learn/all-about-birdhouses/birds/eastern-screech-owl/"&gt;Cornell Lab of Ornithology&lt;/a&gt;, which I ended up using the WDFW plans.  I made the box from a piece of western red cedar from the lumberyard, and with the help of my dad got it tied up to the tree.  It has been up for a few years, although we only had an owl visit once to get shelter from a snowstorm.  So far, it's mostly be home to the yard's resident squirels.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="owl house assembled" src="./images/2018-10-20_owl_house.jpg"&gt;
+owl house as assembled&lt;/p&gt;
+&lt;p&gt;&lt;img alt="owl house in use" src="./images/owl_house_in_use.jpg"&gt;
+owl house in tree with a screech owl poking it's head out.&lt;/p&gt;</content><category term="wood"></category></entry><entry><title>Projects</title><link href="https://indiahotelxray.github.io/projects.html" rel="alternate"></link><published>2021-11-13T00:00:00-08:00</published><updated>2021-11-13T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:indiahotelxray.github.io,2021-11-13:/projects.html</id><summary type="html">&lt;h1&gt;Woodworking&lt;/h1&gt;
 &lt;h2&gt;Ongoing:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="./shop_improvements.html"&gt;Shop improvements&lt;/a&gt;&lt;/li&gt;
@@ -64,7 +70,7 @@ To help fix this, I built a very simple vise from a piece of hard maple, and two
 &lt;ul&gt;
 &lt;li&gt;Remote Antenna Switch and Antenna Rotator&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://lcwo.net/profile/kc2ihx"&gt;Learn CW&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;DDS-60 VFO …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Woodworking&lt;/h1&gt;
+&lt;li&gt;&lt;a href="https://github.com/indiahotelxray/dds60-siggen"&gt;DDS-60 VFO …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Woodworking&lt;/h1&gt;
 &lt;h2&gt;Ongoing:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="./shop_improvements.html"&gt;Shop improvements&lt;/a&gt;&lt;/li&gt;
@@ -90,7 +96,7 @@ To help fix this, I built a very simple vise from a piece of hard maple, and two
 &lt;ul&gt;
 &lt;li&gt;Remote Antenna Switch and Antenna Rotator&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://lcwo.net/profile/kc2ihx"&gt;Learn CW&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;DDS-60 VFO&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/indiahotelxray/dds60-siggen"&gt;DDS-60 VFO&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Someday:&lt;/h2&gt;
 &lt;ul&gt;
@@ -106,7 +112,7 @@ To help fix this, I built a very simple vise from a piece of hard maple, and two
 &lt;h2&gt;Completed:&lt;/h2&gt;
 &lt;h3&gt;Python&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/indiahotelxray/pyxelbreaker"&gt;&lt;code&gt;pyxel&lt;/code&gt; brick breaker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/indiahotelxray/brickgame"&gt;&lt;code&gt;pyxel&lt;/code&gt; brick breaker&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;R&lt;/h3&gt;
 &lt;ul&gt;
@@ -118,8 +124,8 @@ To help fix this, I built a very simple vise from a piece of hard maple, and two
 &lt;h2&gt;Someday:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Email migration&lt;/li&gt;
-&lt;/ul&gt;</content><category term="misc"></category></entry><entry><title>Shop Improvements</title><link href="shop-improvements.html" rel="alternate"></link><published>2021-11-13T00:00:00-08:00</published><updated>2021-11-13T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:None,2021-11-13:shop-improvements.html</id><summary type="html">&lt;p&gt;I finally decided to get my woodshop cleaned up and more usable in the winter by dividing it out.  Every winter I use a few electric heaters to warm it up each day that I want to use it.  While I would like to insulate it and put up solid …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I finally decided to get my woodshop cleaned up and more usable in the winter by dividing it out.  Every winter I use a few electric heaters to warm it up each day that I want to use it.  While I would like to insulate it and put up solid walls to hang stuff on, I'm starting with cutting the space to heat in half.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Alt text" src="/path/to/img.jpg"&gt;&lt;/p&gt;</content><category term="wood"></category></entry><entry><title>Woodworking resources</title><link href="woodworking-resources.html" rel="alternate"></link><published>2021-11-13T00:00:00-08:00</published><updated>2021-11-13T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:None,2021-11-13:woodworking-resources.html</id><summary type="html">&lt;h1&gt;Video Channels&lt;/h1&gt;
+&lt;/ul&gt;</content><category term="misc"></category></entry><entry><title>Shop Improvements</title><link href="https://indiahotelxray.github.io/shop-improvements.html" rel="alternate"></link><published>2021-11-13T00:00:00-08:00</published><updated>2021-11-13T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:indiahotelxray.github.io,2021-11-13:/shop-improvements.html</id><summary type="html">&lt;p&gt;I finally decided to get my woodshop cleaned up and more usable in the winter by dividing it out.  Every winter I use a few electric heaters to warm it up each day that I want to use it.  While I would like to insulate it and put up solid …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I finally decided to get my woodshop cleaned up and more usable in the winter by dividing it out.  Every winter I use a few electric heaters to warm it up each day that I want to use it.  While I would like to insulate it and put up solid walls to hang stuff on, I'm starting with cutting the space to heat in half.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Alt text" src="/path/to/img.jpg"&gt;&lt;/p&gt;</content><category term="wood"></category></entry><entry><title>Woodworking resources</title><link href="https://indiahotelxray.github.io/woodworking-resources.html" rel="alternate"></link><published>2021-11-13T00:00:00-08:00</published><updated>2021-11-13T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:indiahotelxray.github.io,2021-11-13:/woodworking-resources.html</id><summary type="html">&lt;h1&gt;Video Channels&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.youtube.com/c/RexKrueger/"&gt;Rex Kruger (YouTube)&lt;/a&gt; - Rex's videos really taught me how to sharpen and use handplanes and I really appreciate his approach to making woodworking with hand tools more accessible.&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.youtube.com/user/stevinmarin"&gt;Steve Ramsey (YouTube)&lt;/a&gt; - Lots of good introductory videos for power tool woodworking&lt;/li&gt;
@@ -140,7 +146,7 @@ To help fix this, I built a very simple vise from a piece of hard maple, and two
 &lt;h1&gt;Shops&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Jensen's Hardwood (&lt;a href="https://www.jensenhardwoods.com/"&gt;web&lt;/a&gt; / &lt;a href="https://www.facebook.com/jensenhardwoods/"&gt;facebook&lt;/a&gt;) - great place to buy hardwood in the Walla Walla Valley.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="wood"></category></entry><entry><title>What's here</title><link href="whats-here.html" rel="alternate"></link><published>2021-11-11T00:00:00-08:00</published><updated>2021-11-11T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:None,2021-11-11:whats-here.html</id><summary type="html">&lt;h1&gt;About Me&lt;/h1&gt;
+&lt;/ul&gt;</content><category term="wood"></category></entry><entry><title>What's here</title><link href="https://indiahotelxray.github.io/whats-here.html" rel="alternate"></link><published>2021-11-11T00:00:00-08:00</published><updated>2021-11-11T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:indiahotelxray.github.io,2021-11-11:/whats-here.html</id><summary type="html">&lt;h1&gt;About Me&lt;/h1&gt;
 &lt;p&gt;I'm a civil engineer (water resources engineer) by training who has been doing more and more software engineering work.  My job consists of maintaining and upgrading computer models of watersheds and reserviors.  When I am not doing that, I dabble in &lt;a href="./category/wood.html"&gt;woodworking&lt;/a&gt;, birding, organic gardening, photography, and &lt;a href="./category/radio.html"&gt;ham …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;About Me&lt;/h1&gt;
 &lt;p&gt;I'm a civil engineer (water resources engineer) by training who has been doing more and more software engineering work.  My job consists of maintaining and upgrading computer models of watersheds and reserviors.  When I am not doing that, I dabble in &lt;a href="./category/wood.html"&gt;woodworking&lt;/a&gt;, birding, organic gardening, photography, and &lt;a href="./category/radio.html"&gt;ham radio&lt;/a&gt;.&lt;/p&gt;
 &lt;h1&gt;What do I want to do here:&lt;/h1&gt;
@@ -161,7 +167,7 @@ To help fix this, I built a very simple vise from a piece of hard maple, and two
 &lt;ul&gt;
 &lt;li&gt;Learn a more modern IDE that I can use for work (Java, Python, R) and home (Python and R).  This probably means Visual Studio Code.&lt;/li&gt;
 &lt;li&gt;Finally upgrade to skills to Python 3 (in 2021! I mean... 2022!)&lt;/li&gt;
-&lt;/ul&gt;</content><category term="misc"></category></entry><entry><title>New blog</title><link href="new-blog.html" rel="alternate"></link><published>2021-11-09T00:00:00-08:00</published><updated>2021-11-09T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:None,2021-11-09:new-blog.html</id><summary type="html">&lt;h1&gt;TODO items (updated occasionally)&lt;/h1&gt;
+&lt;/ul&gt;</content><category term="misc"></category></entry><entry><title>New blog</title><link href="https://indiahotelxray.github.io/new-blog.html" rel="alternate"></link><published>2021-11-09T00:00:00-08:00</published><updated>2021-11-09T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:indiahotelxray.github.io,2021-11-09:/new-blog.html</id><summary type="html">&lt;h1&gt;TODO items (updated occasionally)&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;get a decent theme working&lt;ul&gt;
 &lt;li&gt;turns out your pelican-themes directory needs to actually have themes in it!  I naively cloned the &lt;code&gt;pelican-themes&lt;/code&gt; github repo and got empty directories.&lt;/li&gt;
