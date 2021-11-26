@@ -5,36 +5,43 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://indiahotelxray.github.io/</loc>
-<lastmod>2021-11-26T06:08:10-00:00</lastmod>
+<lastmod>2021-11-26T11:22:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://indiahotelxray.github.io/tags</loc>
-<lastmod>2021-11-26T06:08:10-00:00</lastmod>
+<lastmod>2021-11-26T11:22:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://indiahotelxray.github.io/categories</loc>
-<lastmod>2021-11-26T06:08:10-00:00</lastmod>
+<lastmod>2021-11-26T11:22:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://indiahotelxray.github.io/authors</loc>
-<lastmod>2021-11-26T06:08:10-00:00</lastmod>
+<lastmod>2021-11-26T11:22:32-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://indiahotelxray.github.io/archives</loc>
-<lastmod>2021-11-26T06:08:10-00:00</lastmod>
+<lastmod>2021-11-26T11:22:32-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://indiahotelxray.github.io/toy-cars.html</loc>
+<lastmod>2021-11-26T00:00:00-08:00</lastmod>
+<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -96,7 +103,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://indiahotelxray.github.io/author/eheisman.html</loc>
-<lastmod>2021-11-25T00:00:00-08:00</lastmod>
+<lastmod>2021-11-26T00:00:00-08:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
