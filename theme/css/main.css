@@ -91,6 +91,12 @@ h1, h2, h3 {
     margin: 1em 0;
 }
 
+img + p {
+    font-style: italic;
+    font-size: 0.9em;
+    color: #393939;
+}
+
 article.post > h2.title {
     font-size: 1.65em;
 }
