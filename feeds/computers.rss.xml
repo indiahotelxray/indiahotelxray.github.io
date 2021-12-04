@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Evan Heisman's Web Log - computers</title><link>https://indiahotelxray.github.io/</link><description></description><lastBuildDate>Sat, 13 Nov 2021 00:00:00 -0800</lastBuildDate><item><title>Projects</title><link>https://indiahotelxray.github.io/projects.html</link><description>&lt;h1&gt;Woodworking&lt;/h1&gt;
+<rss version="2.0"><channel><title>Evan Heisman's Web Log - computers</title><link>./</link><description></description><lastBuildDate>Sat, 13 Nov 2021 00:00:00 -0800</lastBuildDate><item><title>Projects</title><link>projects.html</link><description>&lt;h1&gt;Woodworking&lt;/h1&gt;
 &lt;h2&gt;Ongoing:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="shop-improvements.html"&gt;Shop improvements&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Learning to use &lt;a href="hand-planes.html"&gt;hand planes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="internal" href="shop-improvements.html"&gt;Shop improvements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Learning to use &lt;a class="internal" href="hand-planes.html"&gt;hand planes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Completed:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="workbench-and-stand.html"&gt;Workbench and Miter Saw Stand&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="desk.html"&gt;Desk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="owl-house.html"&gt;Screen Owl Box&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="toy-cars.html"&gt;Toy cars&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="end-grain-cutting-boards.html"&gt;Cutting boards&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="learning-tower.html"&gt;Learning Tower&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="internal" href="workbench-and-stand.html"&gt;Workbench and Miter Saw Stand&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="internal" href="desk.html"&gt;Desk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="internal" href="owl-house.html"&gt;Screen Owl Box&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="internal" href="toy-cars.html"&gt;Toy cars&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="internal" href="end-grain-cutting-boards.html"&gt;Cutting boards&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="internal" href="learning-tower.html"&gt;Learning Tower&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Garden Boxes&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Someday:&lt;/h2&gt;
@@ -24,9 +24,9 @@
 &lt;h2&gt;Ongoing:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Remote Antenna Switch and Antenna Rotator&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://lcwo.net/profile/kc2ihx"&gt;Learn …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Sat, 13 Nov 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:indiahotelxray.github.io,2021-11-13:/projects.html</guid><category>misc</category></item><item><title>New blog</title><link>https://indiahotelxray.github.io/new-blog.html</link><description>&lt;h1&gt;TODO items (updated occasionally)&lt;/h1&gt;
+&lt;li&gt;&lt;a class="external" href="https://lcwo.net/profile/kc2ihx"&gt;Learn …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Sat, 13 Nov 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:None,2021-11-13:projects.html</guid><category>misc</category></item><item><title>New blog</title><link>new-blog.html</link><description>&lt;h1&gt;TODO items (updated occasionally)&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;get a decent theme working&lt;ul&gt;
 &lt;li&gt;turns out your pelican-themes directory needs to actually have themes in it!  I naively cloned the &lt;code&gt;pelican-themes&lt;/code&gt; github repo and got empty directories.&lt;/li&gt;
 &lt;li&gt;make markdown first level headers slightly smaller than post title.&lt;/li&gt;
-&lt;li&gt;add &lt;code&gt;&amp;lt;h2&amp;gt;&lt;/code&gt; css to make slightly smaller than …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Tue, 09 Nov 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:indiahotelxray.github.io,2021-11-09:/new-blog.html</guid><category>computers</category></item></channel></rss>
+&lt;li&gt;add &lt;code&gt;&amp;lt;h2&amp;gt;&lt;/code&gt; css to make slightly smaller than …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Tue, 09 Nov 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:None,2021-11-09:new-blog.html</guid><category>computers</category></item></channel></rss>

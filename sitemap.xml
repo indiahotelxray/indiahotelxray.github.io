@@ -4,127 +4,134 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://indiahotelxray.github.io/</loc>
-<lastmod>2021-11-28T14:32:04-00:00</lastmod>
+<loc>./</loc>
+<lastmod>2021-12-04T13:13:29-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://indiahotelxray.github.io/tags</loc>
-<lastmod>2021-11-28T14:32:04-00:00</lastmod>
+<loc>./tags</loc>
+<lastmod>2021-12-04T13:13:29-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://indiahotelxray.github.io/categories</loc>
-<lastmod>2021-11-28T14:32:04-00:00</lastmod>
+<loc>./categories</loc>
+<lastmod>2021-12-04T13:13:29-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://indiahotelxray.github.io/authors</loc>
-<lastmod>2021-11-28T14:32:04-00:00</lastmod>
+<loc>./authors</loc>
+<lastmod>2021-12-04T13:13:29-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://indiahotelxray.github.io/archives</loc>
-<lastmod>2021-11-28T14:32:04-00:00</lastmod>
+<loc>./archives</loc>
+<lastmod>2021-12-04T13:13:29-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://indiahotelxray.github.io/shop-improvements.html</loc>
+<loc>./homemade-house-numbers-or-is-a-cnc-machine-worth-it.html</loc>
+<lastmod>2021-12-04T00:00:00-08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./shop-improvements.html</loc>
 <lastmod>2021-11-27T00:00:00-08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://indiahotelxray.github.io/end-grain-cutting-boards.html</loc>
+<loc>./end-grain-cutting-boards.html</loc>
 <lastmod>2021-11-26T00:00:00-08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://indiahotelxray.github.io/hand-planes.html</loc>
+<loc>./hand-planes.html</loc>
 <lastmod>2021-11-26T00:00:00-08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://indiahotelxray.github.io/learning-tower.html</loc>
+<loc>./learning-tower.html</loc>
 <lastmod>2021-11-26T00:00:00-08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://indiahotelxray.github.io/toy-cars.html</loc>
+<loc>./toy-cars.html</loc>
 <lastmod>2021-11-26T00:00:00-08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://indiahotelxray.github.io/desk.html</loc>
+<loc>./desk.html</loc>
 <lastmod>2021-11-25T00:00:00-08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://indiahotelxray.github.io/owl-house.html</loc>
+<loc>./owl-house.html</loc>
 <lastmod>2021-11-25T00:00:00-08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://indiahotelxray.github.io/workbench-and-stand.html</loc>
+<loc>./workbench-and-stand.html</loc>
 <lastmod>2021-11-19T00:00:00-08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://indiahotelxray.github.io/projects.html</loc>
+<loc>./projects.html</loc>
 <lastmod>2021-11-13T00:00:00-08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://indiahotelxray.github.io/woodworking-resources.html</loc>
+<loc>./woodworking-resources.html</loc>
 <lastmod>2021-11-13T00:00:00-08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://indiahotelxray.github.io/whats-here.html</loc>
+<loc>./whats-here.html</loc>
 <lastmod>2021-11-11T00:00:00-08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://indiahotelxray.github.io/new-blog.html</loc>
+<loc>./new-blog.html</loc>
 <lastmod>2021-11-09T00:00:00-08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://indiahotelxray.github.io/author/eheisman.html</loc>
-<lastmod>2021-11-27T00:00:00-08:00</lastmod>
+<loc>./author/eheisman.html</loc>
+<lastmod>2021-12-04T00:00:00-08:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
