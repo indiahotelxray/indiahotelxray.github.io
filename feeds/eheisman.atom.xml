@@ -3,7 +3,7 @@
 &lt;p&gt;One of those magical things that has kept me interested in ham radio all these years has been the idea of bouncing signals off of things, particularly those in space.  I've long wanted to give meteor scatter a try, so I want to get my station set up for …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Plans&lt;/h2&gt;
 &lt;p&gt;One of those magical things that has kept me interested in ham radio all these years has been the idea of bouncing signals off of things, particularly those in space.  I've long wanted to give meteor scatter a try, so I want to get my station set up for that this winter.  It seems much more within reach than satellite operations (next on my list) or &lt;a class="external" href="https://en.wikipedia.org/wiki/Earth%E2%80%93Moon%E2%80%93Earth_communication"&gt;EME communication&lt;/a&gt;.  Satellite repeaters requiring specialized antennas or at least good timing and knowing where to point a handheld antenna, while EME requiring some amplifiers outside of my budget for this hobby.&lt;/p&gt;
 &lt;p&gt;It appears I can use a 2-element beam for 50MHz that my neighbor gave me, along with my IC-706MKIIG radio, and the WSJT-X software.  I want to mount the 50MHz antenna on a mast over my garage, and then get the software and radio set up to try some meteor scatter contacts in the morning before my kid gets up.&lt;/p&gt;
-&lt;h2&gt;A few resources&lt;/h2&gt;
+&lt;h2&gt;A few resources I've been refering to.&lt;/h2&gt;
 &lt;p&gt;The pages I've looked at to help me assemble this station:
 - &lt;a class="external" href="https://physics.princeton.edu/pulsar/k1jt/wsjtx.html"&gt;WSJT-X&lt;/a&gt;
 - &lt;a class="external" href="https://www.pingjockey.net/cgi-bin/pingtalk"&gt;ping jockeys&lt;/a&gt;
