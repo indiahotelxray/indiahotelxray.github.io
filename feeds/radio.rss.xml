@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Evan Heisman's Web Log - radio</title><link>./</link><description></description><lastBuildDate>Sat, 13 Nov 2021 00:00:00 -0800</lastBuildDate><item><title>Projects</title><link>projects.html</link><description>&lt;h1&gt;Woodworking&lt;/h1&gt;
+<rss version="2.0"><channel><title>Evan Heisman's Web Log - radio</title><link>./</link><description></description><lastBuildDate>Thu, 09 Dec 2021 00:00:00 -0800</lastBuildDate><item><title>Meteor Scatter Station</title><link>meteor-scatter-station.html</link><description>&lt;h2&gt;Plans&lt;/h2&gt;
+&lt;p&gt;One of those magical things that has kept me interested in ham radio all these years has been the idea of bouncing signals off of things, particularly those in space.  I've long wanted to give meteor scatter a try, so I want to get my station set up for …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Thu, 09 Dec 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:None,2021-12-09:meteor-scatter-station.html</guid><category>radio</category></item><item><title>Projects</title><link>projects.html</link><description>&lt;h1&gt;Woodworking&lt;/h1&gt;
 &lt;h2&gt;Ongoing:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class="internal" href="shop-improvements.html"&gt;Shop improvements&lt;/a&gt;&lt;/li&gt;
@@ -13,7 +14,7 @@
 &lt;li&gt;&lt;a class="internal" href="toy-cars.html"&gt;Toy cars&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="internal" href="end-grain-cutting-boards.html"&gt;Cutting boards&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="internal" href="learning-tower.html"&gt;Learning Tower&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Garden Boxes&lt;/li&gt;
+&lt;li&gt;&lt;a class="internal" href="garden-boxes.html"&gt;Garden Boxes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Someday:&lt;/h2&gt;
 &lt;ul&gt;
