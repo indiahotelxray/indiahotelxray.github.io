@@ -5,36 +5,43 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://indiahotelxray.github.io/</loc>
-<lastmod>2021-12-13T05:55:03-00:00</lastmod>
+<lastmod>2021-12-22T06:13:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://indiahotelxray.github.io/tags</loc>
-<lastmod>2021-12-13T05:55:03-00:00</lastmod>
+<lastmod>2021-12-22T06:13:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://indiahotelxray.github.io/categories</loc>
-<lastmod>2021-12-13T05:55:03-00:00</lastmod>
+<lastmod>2021-12-22T06:13:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://indiahotelxray.github.io/authors</loc>
-<lastmod>2021-12-13T05:55:03-00:00</lastmod>
+<lastmod>2021-12-22T06:13:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://indiahotelxray.github.io/archives</loc>
-<lastmod>2021-12-13T05:55:03-00:00</lastmod>
+<lastmod>2021-12-22T06:13:47-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://indiahotelxray.github.io/fruit-press.html</loc>
+<lastmod>2021-12-22T00:00:00-08:00</lastmod>
+<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -152,7 +159,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://indiahotelxray.github.io/author/eheisman.html</loc>
-<lastmod>2021-12-11T00:00:00-08:00</lastmod>
+<lastmod>2021-12-22T00:00:00-08:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
