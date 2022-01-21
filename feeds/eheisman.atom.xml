@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Evan Heisman's Web Log - eheisman</title><link href="https://www.indiahotelxray.org/" rel="alternate"></link><link href="https://www.indiahotelxray.org/feeds/eheisman.atom.xml" rel="self"></link><id>https://www.indiahotelxray.org/</id><updated>2022-01-17T00:00:00-08:00</updated><entry><title>Cider Press</title><link href="https://www.indiahotelxray.org/cider-press.html" rel="alternate"></link><published>2021-12-22T00:00:00-08:00</published><updated>2022-01-17T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:www.indiahotelxray.org,2021-12-22:/cider-press.html</id><summary type="html">&lt;p&gt;My house came with a beautiful old apple tree in the yard, probably dating to around the time the house was built (1950), which is incredibly prolific, meaning we get more apples than we can ever turn into baked goods and apple sauce in one year.  Several times I have …&lt;/p&gt;</summary><content type="html">&lt;p&gt;My house came with a beautiful old apple tree in the yard, probably dating to around the time the house was built (1950), which is incredibly prolific, meaning we get more apples than we can ever turn into baked goods and apple sauce in one year.  Several times I have tried making some kind of apple cider with the fruit from the tree, using various methods to avoid renting a press.  Here's my account of building a (not-so) quick and dirty cider press.  My goal isn't to build the most elegant fruit press ever, just something functional.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Evan Heisman's Web Log - eheisman</title><link href="https://www.indiahotelxray.org/" rel="alternate"></link><link href="https://www.indiahotelxray.org/feeds/eheisman.atom.xml" rel="self"></link><id>https://www.indiahotelxray.org/</id><updated>2022-01-22T00:00:00-08:00</updated><entry><title>My Ham Shack</title><link href="https://www.indiahotelxray.org/my-ham-shack.html" rel="alternate"></link><published>2022-01-21T00:00:00-08:00</published><updated>2022-01-21T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:www.indiahotelxray.org,2022-01-21:/my-ham-shack.html</id><summary type="html">&lt;p&gt;My home shack:&lt;/p&gt;
+&lt;p&gt;Installed in a built-in cabinet in my living room is a small shack that I use for HF work.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Icom IC-706 MkIIG&lt;/li&gt;
+&lt;li&gt;LDG Z-series auto tuner&lt;/li&gt;
+&lt;li&gt;MFJ manual tuner, used for SWR meter and switch.&lt;/li&gt;
+&lt;li&gt;West Mountain Radio Rig Blaster P&amp;amp;P&lt;/li&gt;
+&lt;li&gt;USB Sound Card&lt;/li&gt;
+&lt;li&gt;Astron switching …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;My home shack:&lt;/p&gt;
+&lt;p&gt;Installed in a built-in cabinet in my living room is a small shack that I use for HF work.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Icom IC-706 MkIIG&lt;/li&gt;
+&lt;li&gt;LDG Z-series auto tuner&lt;/li&gt;
+&lt;li&gt;MFJ manual tuner, used for SWR meter and switch.&lt;/li&gt;
+&lt;li&gt;West Mountain Radio Rig Blaster P&amp;amp;P&lt;/li&gt;
+&lt;li&gt;USB Sound Card&lt;/li&gt;
+&lt;li&gt;Astron switching power supply&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Antennas:
+- Half-size G5RV for HF/6M, currently at around 18 ft off the ground.&lt;/p&gt;
+&lt;p&gt;Future improvements:
+- Install 2-element 6m antenna on rotator on a mast over my garage.
+- 2m and 70cm&lt;/p&gt;</content><category term="radio"></category></entry><entry><title>Cider Press</title><link href="https://www.indiahotelxray.org/cider-press.html" rel="alternate"></link><published>2021-12-22T00:00:00-08:00</published><updated>2022-01-22T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:www.indiahotelxray.org,2021-12-22:/cider-press.html</id><summary type="html">&lt;p&gt;My house came with a beautiful old apple tree in the yard, probably dating to around the time the house was built (1950), which is incredibly prolific, meaning we get more apples than we can ever turn into baked goods and apple sauce in one year.  Several times I have …&lt;/p&gt;</summary><content type="html">&lt;p&gt;My house came with a beautiful old apple tree in the yard, probably dating to around the time the house was built (1950), which is incredibly prolific, meaning we get more apples than we can ever turn into baked goods and apple sauce in one year.  Several times I have tried making some kind of apple cider with the fruit from the tree, using various methods to avoid renting a press.  Here's my account of building a (not-so) quick and dirty cider press.  My goal isn't to build the most elegant fruit press ever, just something functional.&lt;/p&gt;
 &lt;h2&gt;Improvising a press screw&lt;/h2&gt;
 &lt;p&gt;I figure this is one of the more critical pieces, and where I was willing to spend the most money, but also wanted to avoid spending as much as a commercial press would cost to buy.  I started building the frame for a press years ago, with the idea to use a scissor jack to provide compression, but discovered that the one in my car wouldn't extend when a five gallon bucket was placed under it.  For several years I had considered buying a cheap bench screw online, but most of the ones for sale were too short, 18 inches long or less, which doesn't provide enough depth for this.  This weekend I finally broke down and ordered a few critical parts: a 24" 5/8-inch 11-tpi threaded rod made from stainless steel and accompanying nuts and washers.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="cider press in progress" src="https://www.indiahotelxray.org\photos\press_in_progress_20211231a.jpg"&gt;&lt;/p&gt;
@@ -323,26 +345,4 @@ To help fix this, I built a very simple vise from a piece of hard maple, and two
 &lt;li&gt;upload a few photos of woodworking projects - in progress&lt;/li&gt;
 &lt;li&gt;upload some short descriptions of programming projects - in progress&lt;/li&gt;
 &lt;li&gt;add caption style using &lt;code&gt;img + p&lt;/code&gt; in css&lt;/li&gt;
-&lt;/ul&gt;</content><category term="computers"></category></entry><entry><title>My Ham Shack</title><link href="https://www.indiahotelxray.org/my-ham-shack.html" rel="alternate"></link><published>2021-01-21T00:00:00-08:00</published><updated>2021-01-21T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:www.indiahotelxray.org,2021-01-21:/my-ham-shack.html</id><summary type="html">&lt;p&gt;My home shack:&lt;/p&gt;
-&lt;p&gt;Installed in a built-in cabinet in my living room is a small shack that I use for HF work.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Icom IC-706 MkIIG&lt;/li&gt;
-&lt;li&gt;LDG Z-series auto tuner&lt;/li&gt;
-&lt;li&gt;MFJ manual tuner, used for SWR meter and switch.&lt;/li&gt;
-&lt;li&gt;West Mountain Radio Rig Blaster P&amp;amp;P&lt;/li&gt;
-&lt;li&gt;USB Sound Card&lt;/li&gt;
-&lt;li&gt;Astron switching …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;My home shack:&lt;/p&gt;
-&lt;p&gt;Installed in a built-in cabinet in my living room is a small shack that I use for HF work.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Icom IC-706 MkIIG&lt;/li&gt;
-&lt;li&gt;LDG Z-series auto tuner&lt;/li&gt;
-&lt;li&gt;MFJ manual tuner, used for SWR meter and switch.&lt;/li&gt;
-&lt;li&gt;West Mountain Radio Rig Blaster P&amp;amp;P&lt;/li&gt;
-&lt;li&gt;USB Sound Card&lt;/li&gt;
-&lt;li&gt;Astron switching power supply&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Antennas:
-- Half-size G5RV for HF/6M, currently at around 18 ft off the ground.&lt;/p&gt;
-&lt;p&gt;Future improvements:
-- Install 2-element 6m antenna on rotator on a mast over my garage.
-- 2m and 70cm&lt;/p&gt;</content><category term="radio"></category></entry></feed>
+&lt;/ul&gt;</content><category term="computers"></category></entry></feed>
