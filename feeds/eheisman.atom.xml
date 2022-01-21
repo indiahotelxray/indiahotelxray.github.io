@@ -9,15 +9,15 @@
 &lt;h2&gt;Building the bucket&lt;/h2&gt;
 &lt;p&gt;I took a five gallon bucket and attached some wooden staves and metal banding to strengthen it.  The staves were made from 1/3 width pieces of 2x4 and spaced evenly around the bucket.  The staves were attached to one piece of metal banding while laid out on my workbench, using a strip of wood as a guide to provide even spacing.  I then rolled around the bucket before straightening and attaching the second band.  These were then pressure fit over the bucket by gently tapping on a mallet until they were snug - I had sized the bands to give about an inch between the rim of the bucket and the top of the staves, giving me some space to tighten it this way but should still be removable.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="staves on workbench" src="https://www.indiahotelxray.org\photos\staves_20211231a.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;I still need to drill some holes around the bottom to let the juice out.  I want to drill these in a way that is easy to clean up, so I am thinking of using a nice drill bit and taking it slow.  I should drill some test holes in another bucket first.&lt;/p&gt;
+&lt;p&gt;I drilled holes about every inch around the bottom to let juice out - pretty much one under each stave and between each stave.  After testing on another HDPE bucket, I settled on using a brad point bit and taking it really slow.  That still produced a few rough edges, so I came back with a countersink bit to help clean those up.  The final holes aren't amazing, but clean enough for this use.&lt;/p&gt;
 &lt;h2&gt;Adding feet&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="legs attached upside down" src="https://www.indiahotelxray.org\photos\leg_whoopsie_20221116a.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;Whoops.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="legs attached upside down" src="https://www.indiahotelxray.org\photos\leg_whoopsie_20221116a.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;I cut out the notch in them using the table saw and chisel.  The ends were done on the miter saw.  After getting it wrong the first time (see above), I took these off, recut the ends, and attached with glue and screws through the bottom.  The bottom of the frame is not very level as you can see in the photo, so I am hoping that these add much needed stability.&lt;/p&gt;
 &lt;h2&gt;Carving the handle&lt;/h2&gt;
-&lt;p&gt;I had tested the press screw with a piece of 2x4 that I carved a spot for a nut into, but I want the handle to be a little more ergonomic than this.  I started carving the handle after freehanding some curves (well, the bottom of the 5-gallon bucket) into each end, and took a 1-1/2" chisel to pare down to the line.  I cut a few relief cuts with various saws and found the wide-kerf rough-cutting one that came with my cheap miter box was the fastest at this.  Finally, I took a belt sander clamped to my workbench to help smooth this all out before coating in paste wax.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="press handle in progress showing relief cuts" src="https://www.indiahotelxray.org\photos\press_handle_in_progress_20220117a.jpg"&gt;
-Above: showing relief cuts and carving of handle in progress.&lt;/p&gt;
+&lt;p&gt;I had tested the press screw with a piece of 2x4 that I carved a spot for a nut into, but I wanted the handle to be a little more ergonomic than that.  I started the handle by freehanding some curves (well, tracing part of the bottom of the 5-gallon bucket) into each end, and took a 1-1/2" chisel to pare down to the line.  I had to cut a few relief cuts to help, trying various saws.  I found the wide-kerf rough-cutting one that came with my cheap miter box was the fastest at this, but I also overshot a few times.  &lt;/p&gt;
+&lt;p&gt;&lt;img alt="press handle in progress showing relief cuts" src="https://www.indiahotelxray.org\photos\press_handle_in_progress_20220117a.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;To clean it all up, I took a belt sander clamped to my workbench and worked over all the surfaces I had carved with 100 grit sand paper before applying paste wax.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="press_handle" src="https://www.indiahotelxray.org\photos\press_finished_handle_20220117a.jpg"&gt;
 Finished press handle.&lt;/p&gt;
 &lt;h2&gt;Future steps&lt;/h2&gt;
@@ -231,7 +231,7 @@ To help fix this, I built a very simple vise from a piece of hard maple, and two
 &lt;li&gt;&lt;a class="internal" href="remote-hf-antenna-switch.html"&gt;Remote Antenna Switch and Antenna Rotator&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="external" href="https://lcwo.net/profile/kc2ihx"&gt;Learn CW&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="external" href="https://github.com/indiahotelxray/dds60-siggen"&gt;DDS-60 VFO&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;HF home "shack"&lt;/li&gt;
+&lt;li&gt;Maintaining my &lt;a class="internal" href="my-ham-shack.html"&gt;home "shack"&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Someday:&lt;/h2&gt;
 &lt;ul&gt;
@@ -323,4 +323,26 @@ To help fix this, I built a very simple vise from a piece of hard maple, and two
 &lt;li&gt;upload a few photos of woodworking projects - in progress&lt;/li&gt;
 &lt;li&gt;upload some short descriptions of programming projects - in progress&lt;/li&gt;
 &lt;li&gt;add caption style using &lt;code&gt;img + p&lt;/code&gt; in css&lt;/li&gt;
-&lt;/ul&gt;</content><category term="computers"></category></entry></feed>
+&lt;/ul&gt;</content><category term="computers"></category></entry><entry><title>My Ham Shack</title><link href="https://www.indiahotelxray.org/my-ham-shack.html" rel="alternate"></link><published>2021-01-21T00:00:00-08:00</published><updated>2021-01-21T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:www.indiahotelxray.org,2021-01-21:/my-ham-shack.html</id><summary type="html">&lt;p&gt;My home shack:&lt;/p&gt;
+&lt;p&gt;Installed in a built-in cabinet in my living room is a small shack that I use for HF work.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Icom IC-706 MkIIG&lt;/li&gt;
+&lt;li&gt;LDG Z-series auto tuner&lt;/li&gt;
+&lt;li&gt;MFJ manual tuner, used for SWR meter and switch.&lt;/li&gt;
+&lt;li&gt;West Mountain Radio Rig Blaster P&amp;amp;P&lt;/li&gt;
+&lt;li&gt;USB Sound Card&lt;/li&gt;
+&lt;li&gt;Astron switching …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;My home shack:&lt;/p&gt;
+&lt;p&gt;Installed in a built-in cabinet in my living room is a small shack that I use for HF work.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Icom IC-706 MkIIG&lt;/li&gt;
+&lt;li&gt;LDG Z-series auto tuner&lt;/li&gt;
+&lt;li&gt;MFJ manual tuner, used for SWR meter and switch.&lt;/li&gt;
+&lt;li&gt;West Mountain Radio Rig Blaster P&amp;amp;P&lt;/li&gt;
+&lt;li&gt;USB Sound Card&lt;/li&gt;
+&lt;li&gt;Astron switching power supply&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Antennas:
+- Half-size G5RV for HF/6M, currently at around 18 ft off the ground.&lt;/p&gt;
+&lt;p&gt;Future improvements:
+- Install 2-element 6m antenna on rotator on a mast over my garage.
+- 2m and 70cm&lt;/p&gt;</content><category term="radio"></category></entry></feed>

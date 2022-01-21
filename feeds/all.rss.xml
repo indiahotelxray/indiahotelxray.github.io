@@ -51,4 +51,12 @@ Two of the four cutting boards I made shown next to each other.&lt;/p&gt;
 &lt;li&gt;get a decent theme working&lt;ul&gt;
 &lt;li&gt;turns out your pelican-themes directory needs to actually have themes in it!  I naively cloned the &lt;code&gt;pelican-themes&lt;/code&gt; github repo and got empty directories.&lt;/li&gt;
 &lt;li&gt;make markdown first level headers slightly smaller than post title.&lt;/li&gt;
-&lt;li&gt;add &lt;code&gt;&amp;lt;h2&amp;gt;&lt;/code&gt; css to make slightly smaller than …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Tue, 09 Nov 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:www.indiahotelxray.org,2021-11-09:/new-blog.html</guid><category>computers</category></item></channel></rss>
+&lt;li&gt;add &lt;code&gt;&amp;lt;h2&amp;gt;&lt;/code&gt; css to make slightly smaller than …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Tue, 09 Nov 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:www.indiahotelxray.org,2021-11-09:/new-blog.html</guid><category>computers</category></item><item><title>My Ham Shack</title><link>https://www.indiahotelxray.org/my-ham-shack.html</link><description>&lt;p&gt;My home shack:&lt;/p&gt;
+&lt;p&gt;Installed in a built-in cabinet in my living room is a small shack that I use for HF work.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Icom IC-706 MkIIG&lt;/li&gt;
+&lt;li&gt;LDG Z-series auto tuner&lt;/li&gt;
+&lt;li&gt;MFJ manual tuner, used for SWR meter and switch.&lt;/li&gt;
+&lt;li&gt;West Mountain Radio Rig Blaster P&amp;amp;P&lt;/li&gt;
+&lt;li&gt;USB Sound Card&lt;/li&gt;
+&lt;li&gt;Astron switching …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Thu, 21 Jan 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:www.indiahotelxray.org,2021-01-21:/my-ham-shack.html</guid><category>radio</category></item></channel></rss>
