@@ -30,7 +30,34 @@
         </div>
     </header>
     <div id="wrapper">
-        <div id="content">            <h4 class="date">Jan 21, 2022</h4>
+        <div id="content">            <h4 class="date">Feb 04, 2022</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="https://www.indiahotelxray.org/remote-control-power-supply.html" rel="bookmark" title="Permanent Link to &quot;Remote Control Power Supply&quot;">Remote Control Power Supply</a>
+                </h2>
+
+                
+                
+
+                <h2>Motivation</h2>
+<p>I've been trying to operate my HF radio station remotely for the last month, using Windows Remote Desktop and <a class="external" href="https://physics.princeton.edu/pulsar/k1jt/wsjtx.html">WSJT-X</a> to sit and make some FT8 contacts while drinking my morning coffee.  This has worked well but I want to remove the step of having to remember to turn off my radio when I am done.  The power supply and radio are mounted in a closed cabinet.  Leaving the cabinet open invites exploration by our feline companion, while leaving it shut and powered up for long periods of time may result in the temperature rising more than I want.</p>
+<p>I ordered a simple relay board and decided to put it inside of my power supply, to be triggered by a program on the computer to turn the station on and off.  West Mountain Radio sells <a class="external" href="https://www.westmountainradio.com/product_info.php?products_id=rr_4005i">a network connected control and monitor system</a> with Power Pole connectors that would be great for this, but it's also $280 which is a lot more than I want to spend for this little effort.</p>
+<h2>Progress</h2>
+<p>Last weekend after getting all the parts, I took a few moments out in my shop to drill out some holes and mount the relay board, and wire the relay into the circuit of the power supply.  I had selected a relay that is adequate for the AC side of the power supply, which are more commonly available on a premade board than those capable of handling 12V/25A.  I made a few mistakes wiring it up, first mistakenly wiring it in series with the light inside the switch, and then wiring it to be normally closed when the relay is not powered.  </p>
+<p><img alt="relay mounted in power supply" src="https://www.indiahotelxray.org\photos\power_supply_insidea.jpg">.
+<img alt="relay close up" src="https://www.indiahotelxray.org\photos\power_supply_relay_closeupa.jpg">.</p>
+<p>The final mistake I made was wiring up connector that I put on the back of my power supply.  I had decided to use a 1/8" TRS connector to provide power, ground, and signal to the relay from the control board, but instead of soldering to the tip and ring pins, I soldered to pins used to indicate when the plug is removed!  I connected ground to the shield, power to the ring, and signal to the tip, figuring this would ensure the least bad results if any of the pins made contact while inserting the plug.</p>
+<p><img alt="bad plug wiring" src="https://www.indiahotelxray.org\photos\power_supply_plug_to_fixa.jpg"></p>
+<h2>Next Steps</h2>
+<p>Besides fixing the misconnected pins on the TRS socket, I need to wire this up to my computer somehow.  My temporary solution is going to be using a <a class="external" href="https://www.velleman.eu/products/view/?id=351346">Velleman K8055</a> board's digital outputs to control the relay.  Longer term, I'd like to develop some wider shack control software using either the Velleman board or an Arduino to also monitor and control a few of shack accessories.</p>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="https://www.indiahotelxray.org/remote-control-power-supply.html">posted at 00:00</a>
+                    &nbsp;&middot;&nbsp;<a href="https://www.indiahotelxray.org/category/radio.html" rel="tag">radio</a>
+                </div>
+            </article>            <h4 class="date">Jan 21, 2022</h4>
 
             <article class="post">
                 <h2 class="title">
@@ -619,33 +646,6 @@ To help fix this, I built a very simple vise from a piece of hard maple, and two
                 <div class="info">
                     <a href="https://www.indiahotelxray.org/new-blog.html">posted at 00:00</a>
                     &nbsp;&middot;&nbsp;<a href="https://www.indiahotelxray.org/category/computers.html" rel="tag">computers</a>
-                </div>
-            </article>            <h4 class="date">Feb 04, 2021</h4>
-
-            <article class="post">
-                <h2 class="title">
-                    <a href="https://www.indiahotelxray.org/remote-control-power-supply.html" rel="bookmark" title="Permanent Link to &quot;Remote Control Power Supply&quot;">Remote Control Power Supply</a>
-                </h2>
-
-                
-                
-
-                <h2>Motivation</h2>
-<p>I've been trying to operate my HF radio station remotely for the last month, using Windows Remote Desktop and <a class="external" href="https://physics.princeton.edu/pulsar/k1jt/wsjtx.html">WSJT-X</a> to sit and make some FT8 contacts while drinking my morning coffee.  This has worked well but I want to remove the step of having to remember to turn off my radio when I am done.  The power supply and radio are mounted in a closed cabinet.  Leaving the cabinet open invites exploration by our feline companion, while leaving it shut and powered up for long periods of time may result in the temperature rising more than I want.</p>
-<p>I ordered a simple relay board and decided to put it inside of my power supply, to be triggered by a program on the computer to turn the station on and off.  West Mountain Radio sells <a class="external" href="https://www.westmountainradio.com/product_info.php?products_id=rr_4005i">a network connected control and monitor system</a> with Power Pole connectors that would be great for this, but it's also $280 which is a lot more than I want to spend for this little effort.</p>
-<h2>Progress</h2>
-<p>Last weekend after getting all the parts, I took a few moments out in my shop to drill out some holes and mount the relay board, and wire the relay into the circuit of the power supply.  I had selected a relay that is adequate for the AC side of the power supply, which are more commonly available on a premade board than those capable of handling 12V/25A.  I made a few mistakes wiring it up, first mistakenly wiring it in series with the light inside the switch, and then wiring it to be normally closed when the relay is not powered.  </p>
-<p><img alt="relay mounted in power supply" src="https://www.indiahotelxray.org\photos\power_supply_insidea.jpg">.
-<img alt="relay close up" src="https://www.indiahotelxray.org\photos\power_supply_relay_closeupa.jpg">.</p>
-<p>The final mistake I made was wiring up connector that I put on the back of my power supply.  I had decided to use a 1/8" TRS connector to provide power, ground, and signal to the relay from the control board, but instead of soldering to the tip and ring pins, I soldered to pins used to indicate when the plug is removed!  I connected ground to the shield, power to the ring, and signal to the tip, figuring this would ensure the least bad results if any of the pins made contact while inserting the plug.</p>
-<p><img alt="bad plug wiring" src="https://www.indiahotelxray.org\photos\power_supply_plug_to_fixa.jpg"></p>
-<h2>Next Steps</h2>
-<p>Besides fixing the misconnected pins on the TRS socket, I need to wire this up to my computer somehow.  My temporary solution is going to be using a <a class="external" href="https://www.velleman.eu/products/view/?id=351346">Velleman K8055</a> board's digital outputs to control the relay.  Longer term, I'd like to develop some wider shack control software using either the Velleman board or an Arduino to also monitor and control a few of shack accessories.</p>
-                <div class="clear"></div>
-
-                <div class="info">
-                    <a href="https://www.indiahotelxray.org/remote-control-power-supply.html">posted at 00:00</a>
-                    &nbsp;&middot;&nbsp;<a href="https://www.indiahotelxray.org/category/radio.html" rel="tag">radio</a>
                 </div>
             </article>
 
