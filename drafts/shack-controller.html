@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Evan Heisman's Web Log | Shack Controller</title>
+    <link rel="shortcut icon" type="image/png" href="https://www.indiahotelxray.org/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.indiahotelxray.org/favicon.ico">
+    <link href="https://www.indiahotelxray.org/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Evan Heisman's Web Log Full RSS Feed" />
+    <link href="https://www.indiahotelxray.org/feeds/radio.rss.xml" type="application/rss+xml" rel="alternate" title="Evan Heisman's Web Log Categories RSS Feed" />
+    <link rel="stylesheet" href="https://www.indiahotelxray.org/theme/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="https://www.indiahotelxray.org/theme/css/pygments.css" type="text/css" />
+    <meta name="generator" content="Pelican" />
+    <meta name="description" content="" />
+    <meta name="author" content="eheisman" />
+    <meta property="og:title" content="Shack Controller" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.indiahotelxray.org\drafts/shack-controller.html" />
+    <meta property="og:description" content="Purpose I mostly operate my HF/VHF radio, an Icom IC-706 MKIIG remotely using remote desktop and computer control. There are a few functions I need to be present in my shack to operate, and while I cannot automate all of them, this is an attempt to suppliement the capabilities …" />
+    <meta property="og:site_name" content="Evan Heisman&#39;s Web Log" />
+    <meta property="article:published_time" content="2021-01-22" />
+    <meta property="article:section" content="radio" />
+  
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="whats-here.html">about</a></li>
+                <li><a href="https://github.com/indiahotelxray">github</a></li>
+                <li><a href="https://twitter.com/evanheisman">twitter</a></li>
+                <li><a href="https://www.indiahotelxray.org/categories">categories</a></li>
+                <li><a href="https://www.indiahotelxray.org/archives">archives</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="https://www.indiahotelxray.org/">Evan Heisman's Web Log</a></h1>
+        </div>
+    </header>
+    <div id="wrapper">
+        <div id="content">            <h4 class="date">Jan 22, 2021</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="https://www.indiahotelxray.org/drafts/shack-controller.html" rel="bookmark" title="Permanent Link to &quot;Shack Controller&quot;">Shack Controller</a>
+                </h2>
+
+                
+                
+
+                <h2>Purpose</h2>
+<p>I mostly operate my HF/VHF radio, an Icom IC-706 MKIIG remotely using remote desktop and computer control.  There are a few functions I need to be present in my shack to operate, and while I cannot automate all of them, this is an attempt to suppliement the capabilities provided by the radio's serial interface (also known as C-IV by Icom or CAT by other manufactuers).</p>
+<h2>Software</h2>
+<p>I plan to write a 'shack control' interface in Java for use with this.  The shack control interface should be modular, consisting of a component for each physical function, and provide a socket-based server through which other applictions could interact with it.  The application will allow a board's pins to be named, assigned a scale, and then mapped to a function.  The control modules can grab these pins and use them.  The board and controllers should each be registered through an interface, allowing additional boards and modules to be implemented.</p>
+<h2>Why this board?</h2>
+<p>Simply put - I had it laying around.  I purchased a <a class="external" href="https://www.velleman.eu/products/view/?id=351346">Velleman k8055 board</a> as a soldering kit for practice from RadioShack shortly before their demise.  This project would probably have worked just as well, if not better, with an Arduino.  In particular, software to interface with the Arduino is more readily available.  Velleman (now Whadda) offers a <a class="external" href="https://whadda.com/product/i-o-shield-for-arduino-wpk05/">similar purpose board as an Arduino sheild</a>.  Both boards use screw terminals to attach wires, which would allow for easily reconfiguring or adding functionality to these.</p>
+<p>Several libraries exist to interface with the K8055, both as an official DLL from Velleman, a linux shared library, and several Python and Java interfaces for each.  I'll need to use one of these.</p>
+<h2>Functionality</h2>
+<h3>Power Control</h3>
+<p>One digital output controls a relay on to the AC input of my power supply to turn the HF station on and off.  This is the number one thing I want to implement.</p>
+<h3>Automatic Antenna Rotator</h3>
+<p>Two digital outputs, each of which control a pair of SPDT relays board to drive the antenna rotator in the correct direction.  One analog input is used to measure the angle of the rotator via a embedded potentiometer.</p>
+<h3>Force Tune</h3>
+<p>To suppliement the CAT capabilities of my Icom IC-706 MKIIG, I plan to use several of the outputs and inputs with the ACC port and antenna tuner.  Currently I cannot force the antenna tuner to tune remotely, only when it detects an SWR mismatch.</p>
+<h3>Power and SWR monitor</h3>
+<p>If possible, I want to connect this to the meter in my MFJ manual tuner to monitor power and SWR.  This would use require analog inputs or another relay to switch between forward and reverse.</p>
+<h3>Other ACC port functions</h3>
+<p>TX sense for HF and VHF - determine which the radio is in transmit mode, or key the radio.  These pins are available on the radio via the ACC port.</p>
+<h2>Schematic</h2>
+<p>When fully built out, the following pins will be used.</p>
+<p>Analog Inputs (2)
+- Antenna Rotator
+- Power meter and SWR</p>
+<p>Analog / PWM outputs (2)
+- NC
+- NC</p>
+<p>Digital Inputs (5)
+- HF TX sense
+- VHF TX sense
+- Tune sense
+- NC
+- NC</p>
+<p>Digital Outputs (8)
+- HF TX
+- VHF TX
+- Force Tune
+- Antenna Rotator CW (via relays)
+- Antenna Rotator CCW (via relays)
+- Bias Tee enable (via relay)
+- NC
+- NC</p>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="https://www.indiahotelxray.org/drafts/shack-controller.html">posted at 00:00</a>
+                    &nbsp;&middot;&nbsp;<a href="https://www.indiahotelxray.org/category/radio.html" rel="tag">radio</a>
+                </div>
+            </article>
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                Powered by <a href="http://getpelican.com">Pelican</a>
+                &middot;
+                <a href="https://www.indiahotelxray.org/feeds/all.rss.xml" rel="alternate">Rss Feed</a>
+            </footer>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
