@@ -52,8 +52,7 @@
 <img alt="relay close up" src="https://www.indiahotelxray.org\photos\power_supply_relay_closeupa.jpg">.</p>
 <p>The final mistake I made was wiring up connector that I put on the back of my power supply.  I had decided to use a 1/8" TRS connector to provide power, ground, and signal to the relay from the control board, but instead of soldering to the tip and ring pins, I soldered to pins used to indicate when the plug is removed!  I connected ground to the shield, power to the ring, and signal to the tip, figuring this would ensure the least bad results if any of the pins made contact while inserting the plug.</p>
 <p><img alt="bad plug wiring" src="https://www.indiahotelxray.org\photos\power_supply_plug_to_fixa.jpg"></p>
-<h2>Next Steps</h2>
-<p>Besides fixing the misconnected pins on the TRS socket, I need to wire this up to my computer somehow.  My temporary solution is going to be using a <a class="external" href="https://www.velleman.eu/products/view/?id=351346">Velleman K8055</a> board's digital outputs to control the relay.  Longer term, I'd like to develop some wider shack control software using either the Velleman board or an Arduino to also monitor and control a few of shack accessories.</p>
+<p>After fixing the misconnected pins on the TRS socket, I needed to wire this up to my computer somehow.  My temporary solution is to use an old Arduino (which has been flaky to program) to provide +5V and ground to power the relay whenever my computer is connected to it.  Longer term, I am planning to develop a shack control board and software that can use an Arduino or similar board to monitor and control several aspects of my shack.</p>
                 <div class="clear"></div>
 
                 <div class="info">
