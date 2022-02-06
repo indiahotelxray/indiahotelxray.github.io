@@ -15,6 +15,7 @@
     <meta name="author" content="eheisman" />
     <meta property="og:title" content="DDS-60 Signal Generator and VFO" />
     <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://www.indiahotelxray.org\photos\vfo_case_insidea.jpg" />
     <meta property="og:url" content="https://www.indiahotelxray.org\drafts/dds-60-signal-generator-and-vfo.html" />
     <meta property="og:description" content="Purpose I bought a DDS-60 VFO board from Midnight Design Solutions almost a decade ago, with the intent of using it to build a HF antenna analyzer. I built an Arduino shield to hold it, but never got around to the RF power meters required to use it as an …" />
     <meta property="og:site_name" content="Evan Heisman&#39;s Web Log" />
@@ -64,12 +65,23 @@
 <p>The rotary encoder changes the frequency, or the start for the sweep mode.  Pressing the button on the rotary encoder changes the step size when the encoder is turned.</p>
 <p>The second push button can provide an additional function for each mode.  In VFO mode, it switches bands, while in signal generator mode, it increments the frequency by 1 MHz.</p>
 <h2>Current State</h2>
-<p>A couple of months ago, my ham neighbor who gave me the tranceiver kit was also clearing out his shack and gave me a number of items, including an old serial port switch that was just the right size to turn into a case.  I manually laid out the panels and drilled out the holes, trying to reuse existing holes where possible.  The holes are pretty sloppy, as I am not much of a machinist.  they'll work for this.  I  spray-painted the panels a black paint that I had sitting around, unfortunately, it beads up to create a hammered metal look, and that resulted in a very splotchy panel.</p>
-<p>(photo of panels)</p>
-<p>(photo of assembled box)</p>
-<p>(photo of finished product)</p>
+<p>A couple of months ago, my ham neighbor who gave me the tranceiver kit was also clearing out his shack and gave me a number of items, including an old serial port switch that was just the right size to turn into a case.   This box came with front and back panels that could be removed entirely from the case, making them particularly easy to work with, and I initially had planned to just flip them around to hide the text.  I manually laid out the panels by tracing the panels on a sheet of paper and then trying to trace the components in their locations, trying to reuse or expand existing holes where possible.</p>
+<p>The holes I drilled are sloppy, as I am not much of a machinist, but they'll work for this.  Particularly cutting out the square hole for the screen was difficult, using a dremel tool cut-off blade to quite a while.  After drilling, I took a light grinding bit and buffing bit to clean up any sharp edges.</p>
+<p>I  spray-painted the panels a black paint that I had sitting around, unfortunately, it beads up to create a hammered metal look, and that resulted in a splotchy looking finish.  Maybe not the best look for this panel, but it's the paint I had on hand and was better than the scratched up white paint from my amateur machining.</p>
+<p><img alt="vfo case inside after painting" src="https://www.indiahotelxray.org\photos\vfo_case_insidea.jpg"></p>
+<p>Before adding leads to the components, I test fit it all in the case.  At this point, I managed to mess up the finish a tiny bit by needing to drill an additional hole for the pin that keeps the rotary encoder in place.</p>
+<p><img alt="vfo case layout test" src="https://www.indiahotelxray.org\photos\vfo_case_layouta.jpg"></p>
+<p><img alt="vfo case test assembled" src="https://www.indiahotelxray.org\photos\vfo_case_assembeled_offa.jpg"></p>
+<h3>Additional hardware</h3>
+<p>I need to finish wiring up the display, buttons, and rotary encoder.  It appears that Arduino has built in pull-up resistors, so wiring the buttons should be a matter of connecting to a digital pin and ground.</p>
 <h2>Software changes to make.</h2>
-<p>I need to test this software with the display I am using.  I had managed to burn out the Adafruit SSD1306 I2C OLED display I was using, so to complete the project, I switched to a standard HD44780-style display.  This will require quite a few more pins to control, and need to switch out the library used.  On the other hand, this might save some memory space, as the Adafruit.</p>
+<p>The Arduino sketch I am using resides on my <a class="external" href="https://github.com/indiahotelxray/dds60-siggen">github account here</a>.  I've started fixing some things now that I plan to actually put it into a case, not just use it as a breadboard and mess of wires.</p>
+<h3>Rotary encoder</h3>
+<p>I need to try using one of the Arduino rotary encoder libraries.  I had not tested with the rotary encoder yet, just a pair of pushbuttons and assumed the rotary encoder would behave the same.  This appears to not be the case.</p>
+<h3>Display library</h3>
+<p>I need to test this software with the display I am using.  Before having a case for this, I had burned out the Adafruit SSD1306 I2C OLED display I was using.  To complete the project, I switched to a standard HD44780-style display I had laying around.  This will require quite a few more pins to control, and need to switch out the library used.  On the other hand, this appears to save significant memory space, as the Adafruit OLED board used a buffer in memory instead of sending text to the display.</p>
+<h3>Fixing warnings</h3>
+<p>Much of the functionality beyond the basic signal generator function has not been thoroughly tested, and after my most recent look at the code, I saw it was generating an error about copying the memory string name and a bunch of type conversion warnings.  These took a few minutes to fix after googling to fill in my lack of C++ knowledge.  There is still one warning about an unusued variable for the maximum memory slot, which I'll need to go back and ensure the memory mode loops through frequencies correctly.</p>
                 <div class="clear"></div>
 
                 <div class="info">
