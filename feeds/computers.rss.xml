@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Evan Heisman's Web Log - computers</title><link>https://www.indiahotelxray.org/</link><description></description><lastBuildDate>Sat, 05 Feb 2022 00:00:00 -0800</lastBuildDate><item><title>Remote Control Power Supply</title><link>https://www.indiahotelxray.org/remote-control-power-supply.html</link><description>&lt;h2&gt;Motivation&lt;/h2&gt;
+<rss version="2.0"><channel><title>Evan Heisman's Web Log - computers</title><link>https://www.indiahotelxray.org/</link><description></description><lastBuildDate>Sat, 19 Feb 2022 00:00:00 -0800</lastBuildDate><item><title>Music Organization and Home Streaming</title><link>https://www.indiahotelxray.org/music-organization-and-home-streaming.html</link><description>&lt;p&gt;The other day, we decided to cancel our paid Spotify account that we had started near the begining of the pandemic, and start using our old digital and vinyl music libraries more.&lt;/p&gt;
+&lt;p&gt;To facilitate this, I wanted to get our digital music library on a local streaming server that we …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Sat, 19 Feb 2022 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:www.indiahotelxray.org,2022-02-19:/music-organization-and-home-streaming.html</guid><category>computers</category></item><item><title>Remote Control Power Supply</title><link>https://www.indiahotelxray.org/remote-control-power-supply.html</link><description>&lt;h2&gt;Motivation&lt;/h2&gt;
 &lt;p&gt;I've been trying to operate my HF radio station remotely for the last month, using Windows Remote Desktop and &lt;a class="external" href="https://physics.princeton.edu/pulsar/k1jt/wsjtx.html"&gt;WSJT-X&lt;/a&gt; to sit and make some FT8 contacts while drinking my morning coffee.  This has worked well but I want to remove the step of having to remember to turn …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Sat, 05 Feb 2022 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:www.indiahotelxray.org,2022-02-05:/remote-control-power-supply.html</guid><category>radio</category></item><item><title>Projects</title><link>https://www.indiahotelxray.org/projects.html</link><description>&lt;h1&gt;Woodworking&lt;/h1&gt;
 &lt;h2&gt;Ongoing:&lt;/h2&gt;
 &lt;ul&gt;
@@ -8,6 +9,7 @@
 &lt;/ul&gt;
 &lt;h2&gt;Completed:&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a class="internal" href="cider-press.html"&gt;Cider PRess&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="internal" href="workbench-and-stand.html"&gt;Workbench and Miter Saw Stand&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="internal" href="desk.html"&gt;Desk&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="internal" href="owl-house.html"&gt;Screen Owl Box&lt;/a&gt;&lt;/li&gt;
@@ -18,14 +20,13 @@
 &lt;/ul&gt;
 &lt;h2&gt;Someday:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Solid wood base for custom record player&lt;/li&gt;
+&lt;li&gt;Solid wood base for a custom record player&lt;/li&gt;
 &lt;li&gt;New legs for my desk&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;Ham Radio&lt;/h1&gt;
 &lt;h2&gt;Ongoing:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class="internal" href="remote-hf-antenna-switch.html"&gt;Remote Antenna Switch and Antenna Rotator&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class="external" href="https://lcwo.net/profile/kc2ihx"&gt;Learn …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Sat, 13 Nov 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:www.indiahotelxray.org,2021-11-13:/projects.html</guid><category>misc</category></item><item><title>New blog</title><link>https://www.indiahotelxray.org/new-blog.html</link><description>&lt;h1&gt;TODO items (updated occasionally)&lt;/h1&gt;
+&lt;li&gt;&lt;a class="internal" href="remote-hf-antenna-switch.html"&gt;Remote Antenna Switch and …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">eheisman</dc:creator><pubDate>Sat, 13 Nov 2021 00:00:00 -0800</pubDate><guid isPermaLink="false">tag:www.indiahotelxray.org,2021-11-13:/projects.html</guid><category>misc</category></item><item><title>New blog</title><link>https://www.indiahotelxray.org/new-blog.html</link><description>&lt;h1&gt;TODO items (updated occasionally)&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;get a decent theme working&lt;ul&gt;
 &lt;li&gt;turns out your pelican-themes directory needs to actually have themes in it!  I naively cloned the &lt;code&gt;pelican-themes&lt;/code&gt; github repo and got empty directories.&lt;/li&gt;
