@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Evan Heisman's Web Log | Ham Radio in WSL</title>
+    <link rel="shortcut icon" type="image/png" href="https://www.indiahotelxray.org/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.indiahotelxray.org/favicon.ico">
+    <link href="https://www.indiahotelxray.org/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Evan Heisman's Web Log Full RSS Feed" />
+    <link href="https://www.indiahotelxray.org/feeds/radio.rss.xml" type="application/rss+xml" rel="alternate" title="Evan Heisman's Web Log Categories RSS Feed" />
+    <link rel="stylesheet" href="https://www.indiahotelxray.org/theme/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="https://www.indiahotelxray.org/theme/css/pygments.css" type="text/css" />
+    <meta name="generator" content="Pelican" />
+    <meta name="description" content="" />
+    <meta name="author" content="eheisman" />
+    <meta property="og:title" content="Ham Radio in WSL" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.indiahotelxray.org\ham-radio-in-wsl.html" />
+    <meta property="og:description" content="I am trying to run my ham radio programs in WSL - there isn&#39;t a good SDR receiver software for Windows that will interface via audio with &#34;soundcard&#34; mode software, such as the WSJT-X. So, I&#39;m running my shack on an old (circa 2010-2012) gaming PC that is stuck on Windows …" />
+    <meta property="og:site_name" content="Evan Heisman&#39;s Web Log" />
+    <meta property="article:published_time" content="2022-04-17" />
+    <meta property="article:section" content="radio" />
+  
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="whats-here.html">about</a></li>
+                <li><a href="https://github.com/indiahotelxray">github</a></li>
+                <li><a href="https://twitter.com/evanheisman">twitter</a></li>
+                <li><a href="https://www.indiahotelxray.org/categories">categories</a></li>
+                <li><a href="https://www.indiahotelxray.org/archives">archives</a></li>
+            </ul>
+        </nav>
+        <div class="header_box">
+            <h1><a href="https://www.indiahotelxray.org/">Evan Heisman's Web Log</a></h1>
+        </div>
+    </header>
+    <div id="wrapper">
+        <div id="content">            <h4 class="date">Apr 17, 2022</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="https://www.indiahotelxray.org/ham-radio-in-wsl.html" rel="bookmark" title="Permanent Link to &quot;Ham Radio in WSL&quot;">Ham Radio in WSL</a>
+                </h2>
+
+                
+                
+
+                <p>I am trying to run my ham radio programs in WSL - there isn't a good SDR receiver software for Windows that will interface via audio with "soundcard" mode software, such as the WSJT-X.</p>
+<p>So, I'm running my shack on an old (circa 2010-2012) gaming PC that is stuck on Windows 10.  I'd still like to play games on it, and I use the Windows side as a fileserver for backupsd, so I don't want to boot into Linux just to keep a ham receivering running.  An easier answer would be put move all this to a remote linux box running on a lower powered SBC, but that cost money (and boy are Raspberry Pis expensive these days), and this experimentation only costs time.</p>
+<p>I need to make the following WSL features work:</p>
+<ul>
+<li>SDR receiver requires support for <a class="external" href="https://docs.microsoft.com/en-us/windows/wsl/connect-usb">USB devices</a>, requires <a class="external" href="https://github.com/dorssel/usbipd-win/wiki/WSL-support">building the kernel from source for Windows 10</a></li>
+<li>WSL running <a class="external" href="https://techcommunity.microsoft.com/t5/windows-dev-appconsult/running-wsl-gui-apps-on-windows-10/ba-p/1493242">GUI through Xming</a></li>
+<li>installed SoapySDR support for the RTLSDR dongle, and CubicSDR software</li>
+<li>SoapySDR requires <a class="external" href="https://itectec.com/superuser/linux-how-to-get-mdns-avahi-to-work-on-windows-subsystem-for-linux/">Avahi, which doesn't work out of the box.</a> </li>
+</ul>
+<p>I've tested these on my Windows 11 tablet, where I'm now stuck on SoapySDR/CubicSDR finding the RTLSDR receiver but not appearing to actually pull data from it.  Now I need to try these steps again on my Windows 10 box.</p>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="https://www.indiahotelxray.org/ham-radio-in-wsl.html">posted at 00:00</a>
+                    &nbsp;&middot;&nbsp;<a href="https://www.indiahotelxray.org/category/radio.html" rel="tag">radio</a>
+                </div>
+            </article>
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                Powered by <a href="http://getpelican.com">Pelican</a>
+                &middot;
+                <a href="https://www.indiahotelxray.org/feeds/all.rss.xml" rel="alternate">Rss Feed</a>
+            </footer>
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
