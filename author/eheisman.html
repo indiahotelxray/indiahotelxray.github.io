@@ -32,7 +32,41 @@
         </div>
     </header>
     <div id="wrapper">
-        <div id="content">            <h4 class="date">May 24, 2022</h4>
+        <div id="content">            <h4 class="date">Jun 20, 2022</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="https://www.indiahotelxray.org/android-tv-box-as-ham-computer.html" rel="bookmark" title="Permanent Link to &quot;Android TV box as Ham Computer&quot;">Android TV box as Ham Computer</a>
+                </h2>
+
+                
+                
+
+                <p>I've been wanting to set up a couple of projects that would be best served by something like a Raspberry Pi - lightweight processes that are always on.  Unfortunately, they're impossible to find.  I had been considering replacing my TV computer (really my spouse's old laptop) with an Android/Chromecast device, and after a little research I found a review of <a class="external" href="https://www.tomsguide.com/reviews/onn-android-tv-uhd-review-too-buggy-to-recommend">one sold by Walmart for $20</a>.  That lead me to the question every nerd should ask when they see a device that cheap... does it run Linux?  I didn't find an answer to that question, but I found many similar generic Android TV boxes for sale on various websites.  Surely those run Linux, and of course they do.  </p>
+<p>(Side note: I've variously tried to run <a class="internal" href="meteor-scatter-station.html">my ham projects</a> on <a class="internal" href="ham-radio-in-wsl.html">WSL</a> and not had much luck on my <em>old</em> Windows 10 machine.  Remote GUI was a pain, and Linux audio is <em>always</em> a difficulty.  So back to a dedicated Linux box.)</p>
+<p>There are a variety of these, powered by a number of SoC processors, <a class="external" href="https://github.com/ophub/amlogic-s9xxx-armbian">but the Amlogic S9xx series seems well supported by the Armbian project</a>, and readily available.  (Note: After ordering this board, I found <a class="external" href="https://news.ycombinator.com/item?id=24905592">some concerns</a> about <a class="external" href="https://news.ycombinator.com/item?id=28891658">Armbian's practices</a>.)</p>
+<p>After searching for various devices and comparing specifications with prices, I decided to <a class="external" href="https://www.walmart.com/ip/seort/788306507">buy one for around $30</a> that included 64GB eMMC storage and 4GB RAM, but only 100M ethernet.  For $30, this should be sufficient for my ham shack machine, and maybe enough to run a few other services.  Following their <a class="external" href="https://github.com/ophub/amlogic-s9xxx-armbian#install-to-emmc-and-update-instructions">instructions</a>, and <a class="external" href="https://i12bretro.github.io/tutorials/0269.html">these extra steps</a> to configure booting.  </p>
+<h1>Boot configuration</h1>
+<p>My model wasn't specifically listed (Sunisery H96 Max, says s905x2 CPU with 4G RAM), a similar sounding "X96 MAX" was available, so I ended up trying this dtb file: <code>meson-g12a-x96-max.dtb</code>.  It seems to work.  When trying to reboot the TV box into linux, don't forget to hit the reset button (inside the AV port) to enable multiboot.</p>
+<h1>Next Steps</h1>
+<p>Now that I have Linux booting on this device, I can work towards the following
+- WSJT-X configuration with SDR for 6m/VHF reception
+- Shack Control box to remotely turn on radio and run remote antenna switch.
+- APRS iGate with KISS TNC, GPS module, old 2m radio?</p>
+<h1>Concerns</h1>
+<ul>
+<li><em>Ethernet not functional</em>: Have not investigated this one yet.</li>
+<li><em>Unable to change passwords</em>:  Solution - I just needed to use <code>sudo passwd</code> from my account.</li>
+<li><em>Long term support of Armbian?</em>: Armbian states that their mission is to extend support for these unsupported ARM SoCs, which I greatly appreciate.  I feel like I've been burned on dev boards going out of support before, so I'm still a little worried.</li>
+<li><em>Power draw from small power supply</em>:  Plugging in my Griffin iMic USB sound card works fine.  A beefier USB sound card (with RCA inputs and several more channels) appeared to draw too much power.  I have a powered USB 2.0 hub that I should test it with.</li>
+</ul>
+                <div class="clear"></div>
+
+                <div class="info">
+                    <a href="https://www.indiahotelxray.org/android-tv-box-as-ham-computer.html">posted at 00:00</a>
+                    &nbsp;&middot;&nbsp;<a href="https://www.indiahotelxray.org/category/radio.html" rel="tag">radio</a>
+                </div>
+            </article>            <h4 class="date">May 24, 2022</h4>
 
             <article class="post">
                 <h2 class="title">
@@ -699,7 +733,7 @@ To help fix this, I built a very simple vise from a piece of hard maple, and two
 </ul>
 <h2>Completed:</h2>
 <ul>
-<li><a class="internal" href="cider-press.html">Cider PRess</a></li>
+<li><a class="internal" href="cider-press.html">Cider Press</a></li>
 <li><a class="internal" href="workbench-and-stand.html">Workbench and Miter Saw Stand</a></li>
 <li><a class="internal" href="desk.html">Desk</a></li>
 <li><a class="internal" href="owl-house.html">Screech Owl Box</a></li>
@@ -718,6 +752,7 @@ To help fix this, I built a very simple vise from a piece of hard maple, and two
 <h1>Ham Radio</h1>
 <h2>Ongoing:</h2>
 <ul>
+<li><a class="internal" href="android-tv-box-as-ham-shack.html">Hamshack computer</a></li>
 <li><a class="internal" href="remote-hf-antenna-switch.html">Remote Antenna Switch and Antenna Rotator</a></li>
 <li><a class="external" href="https://lcwo.net/profile/kc2ihx">Learn CW</a></li>
 <li><a class="external" href="https://github.com/indiahotelxray/dds60-siggen">DDS-60 VFO</a></li>
@@ -726,7 +761,7 @@ To help fix this, I built a very simple vise from a piece of hard maple, and two
 <h2>Someday:</h2>
 <ul>
 <li>APRS I-Gate</li>
-<li><a class="internal" href="meteor-scatter.html">Meteor scatter station</a></li>
+<li><a class="internal" href="meteor-scatter.html">Meteor scatter sta:tion</a></li>
 <li>VHF/UHF Rover</li>
 </ul>
 <h1>Computers/Programming</h1>

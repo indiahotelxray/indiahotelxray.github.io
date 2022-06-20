@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Evan Heisman's Web Log - eheisman</title><link href="https://www.indiahotelxray.org/" rel="alternate"></link><link href="https://www.indiahotelxray.org/feeds/eheisman.atom.xml" rel="self"></link><id>https://www.indiahotelxray.org/</id><updated>2022-05-24T00:00:00-07:00</updated><entry><title>Easy Lumber Rack</title><link href="https://www.indiahotelxray.org/easy-lumber-rack.html" rel="alternate"></link><published>2022-05-24T00:00:00-07:00</published><updated>2022-05-24T00:00:00-07:00</updated><author><name>eheisman</name></author><id>tag:www.indiahotelxray.org,2022-05-24:/easy-lumber-rack.html</id><summary type="html">&lt;p&gt;Here's a quick (short) post about an easy lumber rack I knocked together from an extra sheet of plywood and some scrap lumber I had laying around.  I needed a better storage solution than the wire-racks I had bought years ago for camping gear and other stuff.  It was fine …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Here's a quick (short) post about an easy lumber rack I knocked together from an extra sheet of plywood and some scrap lumber I had laying around.  I needed a better storage solution than the wire-racks I had bought years ago for camping gear and other stuff.  It was fine to hold things, but difficult to sort through and impossible to move if I needed to get it out of the way.  The sheet of plywood is the only 'new' piece of lumber, which I had originally planned for another project but decided was too rough to use, and I bought some decent quality casters from a local hardware store.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Evan Heisman's Web Log - eheisman</title><link href="https://www.indiahotelxray.org/" rel="alternate"></link><link href="https://www.indiahotelxray.org/feeds/eheisman.atom.xml" rel="self"></link><id>https://www.indiahotelxray.org/</id><updated>2022-06-20T00:00:00-07:00</updated><entry><title>Android TV box as Ham Computer</title><link href="https://www.indiahotelxray.org/android-tv-box-as-ham-computer.html" rel="alternate"></link><published>2022-06-20T00:00:00-07:00</published><updated>2022-06-20T00:00:00-07:00</updated><author><name>eheisman</name></author><id>tag:www.indiahotelxray.org,2022-06-20:/android-tv-box-as-ham-computer.html</id><summary type="html">&lt;p&gt;I've been wanting to set up a couple of projects that would be best served by something like a Raspberry Pi - lightweight processes that are always on.  Unfortunately, they're impossible to find.  I had been considering replacing my TV computer (really my spouse's old laptop) with an Android/Chromecast device …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I've been wanting to set up a couple of projects that would be best served by something like a Raspberry Pi - lightweight processes that are always on.  Unfortunately, they're impossible to find.  I had been considering replacing my TV computer (really my spouse's old laptop) with an Android/Chromecast device, and after a little research I found a review of &lt;a class="external" href="https://www.tomsguide.com/reviews/onn-android-tv-uhd-review-too-buggy-to-recommend"&gt;one sold by Walmart for $20&lt;/a&gt;.  That lead me to the question every nerd should ask when they see a device that cheap... does it run Linux?  I didn't find an answer to that question, but I found many similar generic Android TV boxes for sale on various websites.  Surely those run Linux, and of course they do.  &lt;/p&gt;
+&lt;p&gt;(Side note: I've variously tried to run &lt;a class="internal" href="meteor-scatter-station.html"&gt;my ham projects&lt;/a&gt; on &lt;a class="internal" href="ham-radio-in-wsl.html"&gt;WSL&lt;/a&gt; and not had much luck on my &lt;em&gt;old&lt;/em&gt; Windows 10 machine.  Remote GUI was a pain, and Linux audio is &lt;em&gt;always&lt;/em&gt; a difficulty.  So back to a dedicated Linux box.)&lt;/p&gt;
+&lt;p&gt;There are a variety of these, powered by a number of SoC processors, &lt;a class="external" href="https://github.com/ophub/amlogic-s9xxx-armbian"&gt;but the Amlogic S9xx series seems well supported by the Armbian project&lt;/a&gt;, and readily available.  (Note: After ordering this board, I found &lt;a class="external" href="https://news.ycombinator.com/item?id=24905592"&gt;some concerns&lt;/a&gt; about &lt;a class="external" href="https://news.ycombinator.com/item?id=28891658"&gt;Armbian's practices&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;After searching for various devices and comparing specifications with prices, I decided to &lt;a class="external" href="https://www.walmart.com/ip/seort/788306507"&gt;buy one for around $30&lt;/a&gt; that included 64GB eMMC storage and 4GB RAM, but only 100M ethernet.  For $30, this should be sufficient for my ham shack machine, and maybe enough to run a few other services.  Following their &lt;a class="external" href="https://github.com/ophub/amlogic-s9xxx-armbian#install-to-emmc-and-update-instructions"&gt;instructions&lt;/a&gt;, and &lt;a class="external" href="https://i12bretro.github.io/tutorials/0269.html"&gt;these extra steps&lt;/a&gt; to configure booting.  &lt;/p&gt;
+&lt;h1&gt;Boot configuration&lt;/h1&gt;
+&lt;p&gt;My model wasn't specifically listed (Sunisery H96 Max, says s905x2 CPU with 4G RAM), a similar sounding "X96 MAX" was available, so I ended up trying this dtb file: &lt;code&gt;meson-g12a-x96-max.dtb&lt;/code&gt;.  It seems to work.  When trying to reboot the TV box into linux, don't forget to hit the reset button (inside the AV port) to enable multiboot.&lt;/p&gt;
+&lt;h1&gt;Next Steps&lt;/h1&gt;
+&lt;p&gt;Now that I have Linux booting on this device, I can work towards the following
+- WSJT-X configuration with SDR for 6m/VHF reception
+- Shack Control box to remotely turn on radio and run remote antenna switch.
+- APRS iGate with KISS TNC, GPS module, old 2m radio?&lt;/p&gt;
+&lt;h1&gt;Concerns&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Ethernet not functional&lt;/em&gt;: Have not investigated this one yet.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Unable to change passwords&lt;/em&gt;:  Solution - I just needed to use &lt;code&gt;sudo passwd&lt;/code&gt; from my account.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Long term support of Armbian?&lt;/em&gt;: Armbian states that their mission is to extend support for these unsupported ARM SoCs, which I greatly appreciate.  I feel like I've been burned on dev boards going out of support before, so I'm still a little worried.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Power draw from small power supply&lt;/em&gt;:  Plugging in my Griffin iMic USB sound card works fine.  A beefier USB sound card (with RCA inputs and several more channels) appeared to draw too much power.  I have a powered USB 2.0 hub that I should test it with.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="radio"></category></entry><entry><title>Easy Lumber Rack</title><link href="https://www.indiahotelxray.org/easy-lumber-rack.html" rel="alternate"></link><published>2022-05-24T00:00:00-07:00</published><updated>2022-05-24T00:00:00-07:00</updated><author><name>eheisman</name></author><id>tag:www.indiahotelxray.org,2022-05-24:/easy-lumber-rack.html</id><summary type="html">&lt;p&gt;Here's a quick (short) post about an easy lumber rack I knocked together from an extra sheet of plywood and some scrap lumber I had laying around.  I needed a better storage solution than the wire-racks I had bought years ago for camping gear and other stuff.  It was fine …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Here's a quick (short) post about an easy lumber rack I knocked together from an extra sheet of plywood and some scrap lumber I had laying around.  I needed a better storage solution than the wire-racks I had bought years ago for camping gear and other stuff.  It was fine to hold things, but difficult to sort through and impossible to move if I needed to get it out of the way.  The sheet of plywood is the only 'new' piece of lumber, which I had originally planned for another project but decided was too rough to use, and I bought some decent quality casters from a local hardware store.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="lumber rack in finished state" src="https://www.indiahotelxray.org\photos\lumber_rack_finished1a.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;The extent of the plan I had going into this was to cut the plywood into two 4 foot squares, and arrange them in an A-frame using some 2x4s I pulled off of my old workbench top.  I cut the more beat up ends off of these, and found a few scraps for the rest of this.   I cut a bevel on the 2x4s that would hold it together using my table saw, but these wouldnd't have been too hard to do by hand with a scrub plane and some patience.&lt;/p&gt;
 &lt;p&gt;I ended up using fewer of the 2x4s than I was initially expecting.  If I had thought it through, the plywood at the bottom of the triangle could have been saved with only the 2x4s holding the bottom together.  I think having it there will help with strength and gives me a good shelf to put additional lumber on.&lt;/p&gt;
@@ -342,7 +359,7 @@ To help fix this, I built a very simple vise from a piece of hard maple, and two
 &lt;/ul&gt;
 &lt;h2&gt;Completed:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class="internal" href="cider-press.html"&gt;Cider PRess&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="internal" href="cider-press.html"&gt;Cider Press&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="internal" href="workbench-and-stand.html"&gt;Workbench and Miter Saw Stand&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="internal" href="desk.html"&gt;Desk&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="internal" href="owl-house.html"&gt;Screech Owl Box&lt;/a&gt;&lt;/li&gt;
@@ -367,7 +384,7 @@ To help fix this, I built a very simple vise from a piece of hard maple, and two
 &lt;/ul&gt;
 &lt;h2&gt;Completed:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a class="internal" href="cider-press.html"&gt;Cider PRess&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="internal" href="cider-press.html"&gt;Cider Press&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="internal" href="workbench-and-stand.html"&gt;Workbench and Miter Saw Stand&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="internal" href="desk.html"&gt;Desk&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="internal" href="owl-house.html"&gt;Screech Owl Box&lt;/a&gt;&lt;/li&gt;
@@ -386,6 +403,7 @@ To help fix this, I built a very simple vise from a piece of hard maple, and two
 &lt;h1&gt;Ham Radio&lt;/h1&gt;
 &lt;h2&gt;Ongoing:&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a class="internal" href="android-tv-box-as-ham-shack.html"&gt;Hamshack computer&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="internal" href="remote-hf-antenna-switch.html"&gt;Remote Antenna Switch and Antenna Rotator&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="external" href="https://lcwo.net/profile/kc2ihx"&gt;Learn CW&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="external" href="https://github.com/indiahotelxray/dds60-siggen"&gt;DDS-60 VFO&lt;/a&gt;&lt;/li&gt;
@@ -394,7 +412,7 @@ To help fix this, I built a very simple vise from a piece of hard maple, and two
 &lt;h2&gt;Someday:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;APRS I-Gate&lt;/li&gt;
-&lt;li&gt;&lt;a class="internal" href="meteor-scatter.html"&gt;Meteor scatter station&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="internal" href="meteor-scatter.html"&gt;Meteor scatter sta:tion&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;VHF/UHF Rover&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;Computers/Programming&lt;/h1&gt;
