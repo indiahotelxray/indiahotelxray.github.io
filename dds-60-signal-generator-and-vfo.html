@@ -19,7 +19,7 @@
     <meta property="og:url" content="https://www.indiahotelxray.org\dds-60-signal-generator-and-vfo.html" />
     <meta property="og:description" content="Purpose I bought a DDS-60 VFO board from Midnight Design Solutions almost a decade ago, with the intent of using it to build a HF antenna analyzer. I built an Arduino shield to hold it, but never got around to the RF power meters required to use it as an …" />
     <meta property="og:site_name" content="Evan Heisman&#39;s Web Log" />
-    <meta property="article:published_time" content="2022-02-06" />
+    <meta property="article:published_time" content="2022-08-28" />
     <meta property="article:section" content="radio" />
   
 
@@ -40,7 +40,7 @@
         </div>
     </header>
     <div id="wrapper">
-        <div id="content">            <h4 class="date">Feb 06, 2022</h4>
+        <div id="content">            <h4 class="date">Aug 28, 2022</h4>
 
             <article class="post">
                 <h2 class="title">
@@ -72,16 +72,10 @@
 <p>Before adding leads to the components, I test fit it all in the case.  At this point, I managed to mess up the finish a tiny bit by needing to drill an additional hole for the pin that keeps the rotary encoder in place.</p>
 <p><img alt="vfo case layout test" src="https://www.indiahotelxray.org\photos\vfo_case_layouta.jpg"></p>
 <p><img alt="vfo case test assembled" src="https://www.indiahotelxray.org\photos\vfo_case_assembeled_offa.jpg"></p>
-<h3>Additional hardware</h3>
-<p>I need to finish wiring up the display, buttons, and rotary encoder.  It appears that Arduino has built in pull-up resistors, so wiring the buttons should be a matter of connecting to a digital pin and ground.</p>
-<h2>Software changes to make.</h2>
-<p>The Arduino sketch I am using resides on my <a class="external" href="https://github.com/indiahotelxray/dds60-siggen">github account here</a>.  I've started fixing some things now that I plan to actually put it into a case, not just use it as a breadboard and mess of wires.</p>
-<h3>Rotary encoder</h3>
-<p>I need to try using one of the Arduino rotary encoder libraries.  I had not tested with the rotary encoder yet, just a pair of pushbuttons and assumed the rotary encoder would behave the same.  This appears to not be the case.</p>
-<h3>Display library</h3>
-<p>I need to test this software with the display I am using.  Before having a case for this, I had burned out the Adafruit SSD1306 I2C OLED display I was using.  To complete the project, I switched to a standard HD44780-style display I had laying around.  This will require quite a few more pins to control, and need to switch out the library used.  On the other hand, this appears to save significant memory space, as the Adafruit OLED board used a buffer in memory instead of sending text to the display.</p>
-<h3>Fixing warnings</h3>
-<p>Much of the functionality beyond the basic signal generator function has not been thoroughly tested, and after my most recent look at the code, I saw it was generating an error about copying the memory string name and a bunch of type conversion warnings.  These took a few minutes to fix after googling to fill in my lack of C++ knowledge.  There is still one warning about an unusued variable for the maximum memory slot, which I'll need to go back and ensure the memory mode loops through frequencies correctly.</p>
+<h3>August 2022 Update:</h3>
+<p>I took this project back off the shelf to work on the software and rewired some of the interface elements.  After burning out the first display I had planned to use, I had decided to try a standard 16x2 LCD display.  I found a couple in a box of parts my neighbor gave me, and ended up ordering <a class="external" href="https://www.jameco.com/z/IICMODULE-Jameco-Valuepro-Serial-I2C-TWI-Module-for-Character-LCD-Displays-for-Arduino_2303975.html">an I2C for it from Jameco</a> to make the wiring a bit easier.  I seem to have incorrectly wired the rotary encoder as it will only register increasing values - after trying three different Arduino libraries, I realized it must be a hardware thing, I am pretty sure I grounded the wrong pin on the rotary encoder.  Having the display has helped me test the UI elements.</p>
+<p>I've been maintaining a <a class="external" href="https://github.com/indiahotelxray/dds60-siggen">github repo</a> with the sketch, a few design files, and the test sketch.</p>
+<p>The code still needs a bit of work -  I am doing something wrong with type casting, as soon as you start turning the dial, the display frequency goes haywire.  Maybe this is only an issue with me using <code>sprintf</code>, but I expect it is deeper than that.  Once I have the rotary encoder fixed, this'll be the next thing I address.</p>
                 <div class="clear"></div>
 
                 <div class="info">
