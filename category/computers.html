@@ -24,7 +24,9 @@
 
                 <li class="ephemeral selected"><a href="https://www.indiahotelxray.org/category/computers.html">computers</a></li>
                 <li><a href="whats-here.html">about</a></li>
-                <li><a href="github.com/indiahotelxray">github</a></li>
+                <li><a href="https://github.com/indiahotelxray">github</a></li>
+                <li><a href="https://mastodon.hams.social/@kc2ihx">@kc2ihx@mastodon.hams.social</a></li>
+                <li><a href="https://vis.social/@eheisman">@eheisman@vis.social</a></li>
                 <li><a href="https://www.indiahotelxray.org/categories">categories</a></li>
                 <li><a href="https://www.indiahotelxray.org/archives">archives</a></li>
             </ul>
@@ -112,10 +114,10 @@
 <p>I ordered a simple relay board and decided to put it inside of my power supply, to be triggered by a program on the computer to turn the station on and off.  West Mountain Radio sells <a class="external" href="https://www.westmountainradio.com/product_info.php?products_id=rr_4005i">a network connected control and monitor system</a> with Power Pole connectors that would be great for this, but it's also $280 which is a lot more than I want to spend for this little effort.</p>
 <h2>Progress</h2>
 <p>Last weekend after getting all the parts, I took a few moments out in my shop to drill out some holes and mount the relay board, and wire the relay into the circuit of the power supply.  I had selected a relay that is adequate for the AC side of the power supply, which are more commonly available on a premade board than those capable of handling 12V/25A.  I made a few mistakes wiring it up, first mistakenly wiring it in series with the light inside the switch, and then wiring it to be normally closed when the relay is not powered.  </p>
-<p><img alt="relay mounted in power supply" src="https://www.indiahotelxray.org\photos\power_supply_insidea.jpg">.
-<img alt="relay close up" src="https://www.indiahotelxray.org\photos\power_supply_relay_closeupa.jpg">.</p>
+<p><img alt="relay mounted in power supply" src="https://www.indiahotelxray.org/photos/power_supply_insidea.jpg">.
+<img alt="relay close up" src="https://www.indiahotelxray.org/photos/power_supply_relay_closeupa.jpg">.</p>
 <p>The final mistake I made was wiring up connector that I put on the back of my power supply.  I had decided to use a 1/8" TRS connector to provide power, ground, and signal to the relay from the control board, but instead of soldering to the tip and ring pins, I soldered to pins used to indicate when the plug is removed!  I connected ground to the shield, power to the ring, and signal to the tip, figuring this would ensure the least bad results if any of the pins made contact while inserting the plug.</p>
-<p><img alt="bad plug wiring" src="https://www.indiahotelxray.org\photos\power_supply_plug_to_fixa.jpg"></p>
+<p><img alt="bad plug wiring" src="https://www.indiahotelxray.org/photos/power_supply_plug_to_fixa.jpg"></p>
 <p>After fixing the misconnected pins on the TRS socket, I needed to wire this up to my computer somehow.  My temporary solution is to use an old Arduino (which has been flaky to program) to provide +5V and ground to power the relay whenever my computer is connected to it.  Longer term, I am planning to develop a shack control board and software that can use an Arduino or similar board to monitor and control several aspects of my shack.</p>
                 <div class="clear"></div>
 
