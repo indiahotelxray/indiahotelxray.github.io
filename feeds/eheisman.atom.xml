@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Evan Heisman's Web Log - eheisman</title><link href="https://www.indiahotelxray.org/" rel="alternate"></link><link href="https://www.indiahotelxray.org/feeds/eheisman.atom.xml" rel="self"></link><id>https://www.indiahotelxray.org/</id><updated>2024-10-18T00:00:00-07:00</updated><entry><title>I'm not dead yet!</title><link href="https://www.indiahotelxray.org/im-not-dead-yet.html" rel="alternate"></link><published>2024-10-18T00:00:00-07:00</published><updated>2024-10-18T00:00:00-07:00</updated><author><name>eheisman</name></author><id>tag:www.indiahotelxray.org,2024-10-18:/im-not-dead-yet.html</id><content type="html">&lt;p&gt;I'm still here!  It's been a busy, uh... 18 months? &lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Evan Heisman's Web Log - eheisman</title><link href="https://www.indiahotelxray.org/" rel="alternate"></link><link href="https://www.indiahotelxray.org/feeds/eheisman.atom.xml" rel="self"></link><id>https://www.indiahotelxray.org/</id><updated>2024-10-18T00:00:00-07:00</updated><entry><title>I'm not dead yet!</title><link href="https://www.indiahotelxray.org/im-not-dead-yet.html" rel="alternate"></link><published>2024-10-18T00:00:00-07:00</published><updated>2024-10-18T00:00:00-07:00</updated><author><name>eheisman</name></author><id>tag:www.indiahotelxray.org,2024-10-18:/im-not-dead-yet.html</id><summary type="html">&lt;p&gt;I'm still here!  It's been a busy, uh... 18 months? &lt;/p&gt;
 &lt;p&gt;A few things I've been involved with:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;parenting a kindergartener, er, now first grader!&lt;/li&gt;
 &lt;li&gt;New HF radio and building my dedicated ham shack!&lt;/li&gt;
-&lt;li&gt;&lt;img alt="FARPN" src="https://wiki.farpn.net"&gt;&lt;/li&gt;
-&lt;li&gt;&lt;img alt="Narwhal Amateur Radio Society" src="https://nars.narwhal.be/"&gt;&lt;/li&gt;
+&lt;li&gt;operating a HF packet node for &lt;a class="external" href="https://wiki.farpn.net"&gt;FARPN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="external" href="https://nars.narwhal.be/"&gt;Narwhal Amateur Radio Society&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Became the treasurer for my synagogue's …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;I'm still here!  It's been a busy, uh... 18 months? &lt;/p&gt;
+&lt;p&gt;A few things I've been involved with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;parenting a kindergartener, er, now first grader!&lt;/li&gt;
+&lt;li&gt;New HF radio and building my dedicated ham shack!&lt;/li&gt;
+&lt;li&gt;operating a HF packet node for &lt;a class="external" href="https://wiki.farpn.net"&gt;FARPN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="external" href="https://nars.narwhal.be/"&gt;Narwhal Amateur Radio Society&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Became the treasurer for my synagogue's board. &lt;/li&gt;
 &lt;/ul&gt;</content><category term="misc"></category></entry><entry><title>Repairing a broken connector on a TH-D72 radio</title><link href="https://www.indiahotelxray.org/repairing-a-broken-connector-on-a-th-d72-radio.html" rel="alternate"></link><published>2023-02-18T00:00:00-08:00</published><updated>2023-02-18T00:00:00-08:00</updated><author><name>eheisman</name></author><id>tag:www.indiahotelxray.org,2023-02-18:/repairing-a-broken-connector-on-a-th-d72-radio.html</id><summary type="html">&lt;p&gt;I broke the SMA antenna connector on my Kenwood TH-D72A radio recently, and I was surprised to find how easy it was to repair.&lt;/p&gt;
 &lt;h1&gt;Broken&lt;/h1&gt;
